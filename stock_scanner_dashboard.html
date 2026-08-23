@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>F&amp;O Stock Option Scanner (MWD)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    color-scheme: light;
+    --page:           #f2f5fa;
+    --surface-1:      #ffffff;
+    --surface-2:      #e9edf5;
+    --text-primary:   #11151f;
+    --text-secondary: #5a6478;
+    --text-muted:     #838da2;
+    --gridline:       #dbe1ec;
+    --border:         rgba(17,21,31,0.12);
+
+    --accent:         #4a3aa7;
+    --accent-soft:    rgba(74,58,167,0.10);
+
+    --good:           #0ca30c;
+    --critical:       #d03b3b;
+    --warning:        #b5710a;
+    --neutral-bg:     #e7eaf1;
+    --neutral-text:   #5a6478;
+
+    --cat-equity:     #2a78d6;
+    --cat-index:      #c23d84;
+    --cat-mcx:        #8a6512;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page:           #0a0d14;
+      --surface-1:      #141a26;
+      --surface-2:      #1c2434;
+      --text-primary:   #eef1f8;
+      --text-secondary: #9aa4bd;
+      --text-muted:     #7c869e;
+      --gridline:       #262f42;
+      --border:         rgba(238,241,248,0.12);
+
+      --accent:         #9085e9;
+      --accent-soft:    rgba(144,133,233,0.16);
+
+      --good:           #28c840;
+      --critical:       #f0645f;
+      --warning:        #f2b636;
+      --neutral-bg:     #232b3c;
+      --neutral-text:   #9aa4bd;
+
+      --cat-equity:     #3987e5;
+      --cat-index:      #d55181;
+      --cat-mcx:        #c98500;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  header {
+    padding: 20px 24px 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+  }
+  h1 { font-size: 21px; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  .sub { color: var(--text-secondary); font-size: 15px; }
+  #status-bar {
+    padding: 0 24px 14px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+  #status-bar b { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; flex: none; }
+  .dot.live { background: var(--good); }
+  .dot.stale { background: var(--critical); }
+  .dot-call    { background: var(--good); }
+  .dot-put     { background: var(--critical); }
+  .dot-err     { background: var(--warning); }
+  .dot-equity  { background: var(--cat-equity); }
+  .dot-index   { background: var(--cat-index); }
+  .dot-mcx     { background: var(--cat-mcx); }
+  #filters {
+    padding: 0 24px 10px;
+    display: flex;
+    gap: 8px;
+  }
+  #category-filters {
+    padding: 0 24px 16px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  #narrow-toggle.active {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    font-weight: 600;
+  }
+  .filter-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-secondary);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .filter-btn.active {
+    color: var(--text-primary);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    font-weight: 600;
+  }
+  #grid {
+    padding: 0 24px 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    gap: 12px;
+  }
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .card.card-CALL { border-color: color-mix(in srgb, var(--good) 38%, var(--border)); }
+  .card.card-PUT  { border-color: color-mix(in srgb, var(--critical) 38%, var(--border)); }
+  .card.card-ERR  { border-color: color-mix(in srgb, var(--warning) 38%, var(--border)); }
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+  .symbol-row { display: flex; align-items: center; gap: 6px; }
+  .symbol { font-weight: 700; font-size: 17px; }
+  .chart-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; border-radius: 5px;
+    color: var(--text-muted); text-decoration: none;
+    border: 1px solid transparent;
+  }
+  .chart-link:hover { color: var(--text-primary); border-color: var(--border); background: var(--surface-2); }
+  .chart-link svg { width: 13px; height: 13px; }
+  .ltp { font-size: 15px; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+  .cat-chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--text-muted); margin-bottom: 8px;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .badge.CALL { background: color-mix(in srgb, var(--good) 16%, transparent); color: var(--good); }
+  .badge.PUT  { background: color-mix(in srgb, var(--critical) 16%, transparent); color: var(--critical); }
+  .badge.NONE { background: var(--neutral-bg); color: var(--neutral-text); }
+  .badge.ERR  { background: color-mix(in srgb, var(--warning) 16%, transparent); color: var(--warning); }
+  .crit-row { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--text-secondary); padding: 2px 0; }
+  .crit-row .mark { width: 14px; text-align: center; font-weight: 700; }
+  .crit-row.met { color: var(--text-primary); }
+  .crit-row.met.call .mark { color: var(--good); }
+  .crit-row.met.put .mark { color: var(--critical); }
+  .crit-row.unmet .mark { color: var(--text-muted); }
+  .side-label { font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin: 8px 0 3px; }
+  .levels { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--gridline); font-size: 13px; color: var(--text-muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .levels .lvl-group { width: 100%; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .counter-row { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--gridline); display: flex; align-items: center; justify-content: space-between; font-size: 14px; color: var(--text-secondary); }
+  .counter-row button {
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    border-radius: 6px;
+    width: 22px; height: 22px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1;
+  }
+  .counter-row .count { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-primary); }
+  .counter-row .count.over { color: var(--critical); }
+  .info-row { display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 2px 0; }
+  .info-row .mark { width: 14px; text-align: center; font-weight: 700; }
+  .info-row.on .mark { color: var(--accent); }
+  .info-row.on { color: var(--text-primary); }
+  .info-row.off .mark { color: var(--text-muted); }
+  .info-row.off { color: var(--text-muted); }
+  .info-note { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); padding: 2px 0; font-style: italic; }
+  .err-card { color: var(--critical); font-size: 14px; }
+  footer { padding: 8px 24px 24px; font-size: 13px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>F&amp;O Stock Option Scanner &mdash; MWD</h1>
+    <div class="sub">ITM Call/Put buying signals &middot; CALL = above Weekly CPR + pivot + Daily R1 + EMA(5&gt;26&gt;50) stack on Daily/60m/15m + above prev-day high (mirrored for PUT, using S1)</div>
+  </div>
+</header>
+
+<div id="status-bar">
+  <span><span class="dot" id="live-dot"></span><span id="live-text">loading…</span></span>
+  <span>Last scan: <b id="generated-at">–</b></span>
+  <span>CALL: <b id="call-count" style="color:var(--good)">0</b></span>
+  <span>PUT: <b id="put-count" style="color:var(--critical)">0</b></span>
+  <span>Errors: <b id="err-count" style="color:var(--warning)">0</b></span>
+  <span>Cap: <b id="cap-text" style="color:var(--accent)">–</b> per stock/day</span>
+</div>
+
+<div id="filters">
+  <button class="filter-btn active" data-filter="ALL">All (<span id="n-all">0</span>)</button>
+  <button class="filter-btn" data-filter="CALL"><span class="dot dot-call"></span>CALL (<span id="n-call">0</span>)</button>
+  <button class="filter-btn" data-filter="PUT"><span class="dot dot-put"></span>PUT (<span id="n-put">0</span>)</button>
+  <button class="filter-btn" data-filter="NONE">No signal (<span id="n-none">0</span>)</button>
+</div>
+
+<div id="category-filters">
+  <button class="filter-btn active" data-category="ALL">All assets</button>
+  <button class="filter-btn" data-category="EQUITY"><span class="dot dot-equity"></span>Equity Stocks</button>
+  <button class="filter-btn" data-category="INDEX"><span class="dot dot-index"></span>Index</button>
+  <button class="filter-btn" data-category="MCX"><span class="dot dot-mcx"></span>MCX</button>
+  <button class="filter-btn" id="narrow-toggle" data-narrow="0">Next-day CPR Narrow only</button>
+</div>
+
+<div id="grid"></div>
+
+<footer>
+  Reads stock_scanner_state.json from this folder every 15 minutes. Trade counters below are a manual per-browser
+  reminder only (stored in this browser's local storage) &mdash; nothing here places or tracks real orders.
+  Reset counters daily yourself, or clear browser storage.
+</footer>
+
+<script>
+const REFRESH_MS = 15 * 60 * 1000;
+const STATE_URL = "stock_scanner_state.json";
+const LS_KEY = "fno_scanner_mwd_counters_v1";
+
+let currentFilter = "ALL";
+let currentCategory = "ALL";
+let narrowOnly = false;
+let lastData = null;
+
+const CAT_CLASS = { EQUITY: "equity", INDEX: "index", MCX: "mcx" };
+const CAT_LABEL = { EQUITY: "EQUITY", INDEX: "INDEX", MCX: "MCX" };
+
+function catChip(category) {
+  const cls = CAT_CLASS[category] || "equity";
+  const label = CAT_LABEL[category] || category;
+  return `<span class="cat-chip"><span class="dot dot-${cls}"></span>${label}</span>`;
+}
+
+function loadCounters() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
+    const today = new Date().toISOString().slice(0, 10);
+    if (raw.date !== today) return { date: today, counts: {} };
+    return raw;
+  } catch (e) {
+    return { date: new Date().toISOString().slice(0, 10), counts: {} };
+  }
+}
+function saveCounters(state) {
+  localStorage.setItem(LS_KEY, JSON.stringify(state));
+}
+let counterState = loadCounters();
+
+function bumpCounter(symbol, delta) {
+  const cur = counterState.counts[symbol] || 0;
+  counterState.counts[symbol] = Math.max(0, cur + delta);
+  saveCounters(counterState);
+  render(lastData);
+}
+
+function critRow(label, met, dir) {
+  return `<div class="crit-row ${met ? "met " + dir : "unmet"}"><span class="mark">${met ? "✓" : "·"}</span>${label}</div>`;
+}
+
+function parseDetail(detail) {
+  // "Above Weekly CPR=Y, Daily EMA stack=n, ..." -> [[label, bool], ...]
+  return detail.split(", ").map(part => {
+    const idx = part.lastIndexOf("=");
+    return [part.slice(0, idx), part.slice(idx + 1) === "Y"];
+  });
+}
+
+const CHART_ICON_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12.5 6 7l3 3 5-6"/><path d="M11 4h3v3"/></svg>`;
+
+function chartLink(stock) {
+  if (!stock.chart_url) return "";
+  return `<a class="chart-link" href="${stock.chart_url}" target="_blank" rel="noopener noreferrer" title="Open ${stock.symbol} chart on Dhan" onclick="event.stopPropagation()">${CHART_ICON_SVG}</a>`;
+}
+
+function card(stock, meta) {
+  if (stock.error) {
+    return `<div class="card card-ERR"><div class="card-top"><div class="symbol-row"><span class="symbol">${stock.symbol}</span>${chartLink(stock)}</div>
+      <span class="badge ERR">ERROR</span></div>
+      ${catChip(stock.category)}
+      <div class="err-card">${stock.error}</div></div>`;
+  }
+
+  const sig = stock.signal;
+  const dir = sig === "PUT" ? "put" : "call";
+  const sideConds = sig === "PUT" ? stock.sell : stock.buy;
+  const rows = parseDetail(sideConds.detail).map(([label, met]) => critRow(label, met, dir)).join("");
+  const count = counterState.counts[stock.symbol] || 0;
+  const over = count >= meta.max_trades_per_day;
+  const lvl = stock.levels;
+
+  return `<div class="card card-${sig}">
+    <div class="card-top">
+      <div><div class="symbol-row"><span class="symbol">${stock.symbol}</span>${chartLink(stock)}</div><div class="ltp">₹${stock.ltp.toLocaleString("en-IN")}</div></div>
+      <span class="badge ${sig}">${sig === "NONE" ? "NO SIGNAL" : sig}</span>
+    </div>
+    ${catChip(stock.category)}
+    <div class="side-label">${sig === "PUT" ? "Put criteria" : "Call criteria"} (${sideConds.count}/${sideConds.total})</div>
+    ${rows}
+    <div class="info-row ${stock.isNarrowCPR ? "on" : "off"}"><span class="mark">${stock.isNarrowCPR ? "✓" : "·"}</span>Narrow CPR (trending bias)</div>
+    <div class="levels">
+      <div class="lvl-group">
+        <span>OR(9:45) ${lvl.openRangeClose ?? "–"}</span>
+        <span>Pivot ${lvl.pivot ?? "–"}</span>
+        <span>R1 ${lvl.r1 ?? "–"}</span>
+        <span>S1 ${lvl.s1 ?? "–"}</span>
+        <span>PDH ${lvl.prevDayHigh ?? "–"}</span>
+        <span>PDL ${lvl.prevDayLow ?? "–"}</span>
+        <span>CPR width ${lvl.dailyCPR_width ?? "–"}</span>
+        <span>EMA5(15m) ${lvl.ema15_5 ?? "–"}</span>
+      </div>
+      <div class="lvl-group">
+        <span>Monthly CPR TC/P/BC ${lvl.monthlyCPR_tc ?? "–"}/${lvl.monthlyCPR_pivot ?? "–"}/${lvl.monthlyCPR_bc ?? "–"}</span>
+      </div>
+      <div class="lvl-group">
+        <span>Weekly CPR TC/P/BC ${lvl.weeklyCPR_tc ?? "–"}/${lvl.weeklyCPR_pivot ?? "–"}/${lvl.weeklyCPR_bc ?? "–"}</span>
+      </div>
+    </div>
+    <div class="info-note">ℹ Next-day CPR (info only, not a filter): ${lvl.nextDayCPR_width_pct != null ? lvl.nextDayCPR_width_pct + "%" : "–"}</div>
+    <div class="counter-row">
+      <span>Trades taken today</span>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button onclick="bumpCounter('${stock.symbol}', -1)">–</button>
+        <span class="count ${over ? "over" : ""}">${count}/${meta.max_trades_per_day}</span>
+        <button onclick="bumpCounter('${stock.symbol}', 1)">+</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+function render(data) {
+  if (!data) return;
+  lastData = data;
+  counterState = loadCounters();
+
+  const stocks = data.stocks;
+  const calls = stocks.filter(s => s.signal === "CALL");
+  const puts = stocks.filter(s => s.signal === "PUT");
+  const nones = stocks.filter(s => s.signal === "NONE" && !s.error);
+  const errs = stocks.filter(s => s.error);
+
+  document.getElementById("generated-at").textContent = new Date(data.generated_at).toLocaleString("en-IN");
+  document.getElementById("call-count").textContent = calls.length;
+  document.getElementById("put-count").textContent = puts.length;
+  document.getElementById("err-count").textContent = errs.length;
+  document.getElementById("cap-text").textContent =
+    `${data.meta.max_trades_per_day} trades / ₹${data.meta.max_loss_per_day} max loss`;
+
+  document.getElementById("n-all").textContent = stocks.length;
+  document.getElementById("n-call").textContent = calls.length;
+  document.getElementById("n-put").textContent = puts.length;
+  document.getElementById("n-none").textContent = nones.length;
+
+  const ageMin = (Date.now() - new Date(data.generated_at).getTime()) / 60000;
+  const dot = document.getElementById("live-dot");
+  const text = document.getElementById("live-text");
+  if (ageMin > 20) {
+    dot.className = "dot stale";
+    text.textContent = `stale (${Math.round(ageMin)} min old — is the 15-min scheduled task running?)`;
+  } else {
+    dot.className = "dot live";
+    text.textContent = "live";
+  }
+
+  let filtered = stocks;
+  if (currentFilter !== "ALL") {
+    filtered = filtered.filter(s => !s.error && s.signal === currentFilter);
+  }
+  if (currentCategory !== "ALL") {
+    filtered = filtered.filter(s => s.category === currentCategory);
+  }
+  if (narrowOnly) {
+    filtered = filtered.filter(s => s.isNextDayCPRNarrow === true);
+  }
+  // signals first (CALL/PUT), then NONE, errors last
+  const rank = { CALL: 0, PUT: 0, NONE: 1 };
+  filtered = filtered.slice().sort((a, b) => {
+    if (a.error) return 1;
+    if (b.error) return -1;
+    return (rank[a.signal] ?? 2) - (rank[b.signal] ?? 2);
+  });
+
+  document.getElementById("grid").innerHTML = filtered.map(s => card(s, data.meta)).join("");
+}
+
+async function refresh() {
+  try {
+    const res = await fetch(STATE_URL + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById("live-text").textContent = "failed to load stock_scanner_state.json — " + e.message;
+    document.getElementById("live-dot").className = "dot stale";
+  }
+}
+
+document.querySelectorAll("#filters .filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("#filters .filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = btn.dataset.filter;
+    render(lastData);
+  });
+});
+
+document.querySelectorAll("#category-filters .filter-btn[data-category]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("#category-filters .filter-btn[data-category]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentCategory = btn.dataset.category;
+    render(lastData);
+  });
+});
+
+document.getElementById("narrow-toggle").addEventListener("click", () => {
+  narrowOnly = !narrowOnly;
+  document.getElementById("narrow-toggle").classList.toggle("active", narrowOnly);
+  render(lastData);
+});
+
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>

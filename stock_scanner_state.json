@@ -1,0 +1,402 @@
+{
+  "generated_at": "2026-08-21T11:16:02.162397",
+  "meta": {
+    "max_trades_per_day": 6,
+    "max_loss_per_day": 2000,
+    "lot_size": 1
+  },
+  "stocks": [
+    {
+      "symbol": "RELIANCE",
+      "security_id": "2885",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TCS",
+      "security_id": "11536",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/tcs-tata-consultancy-services-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "security_id": "1333",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hdfc-bank-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "security_id": "4963",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/icici-bank-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "INFY",
+      "security_id": "1594",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/infosys-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ITC",
+      "security_id": "1660",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/itc-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "LT",
+      "security_id": "11483",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/lt-larsen-toubro-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "SBIN",
+      "security_id": "3045",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/state-bank-of-india-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "security_id": "10604",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/bharti-airtel-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "security_id": "1922",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/kotak-mahindra-bank-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "AXISBANK",
+      "security_id": "5900",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/axis-bank-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "security_id": "1394",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hindustan-unilever-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "security_id": "317",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/bajaj-finance-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "security_id": "236",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/asian-paints-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "MARUTI",
+      "security_id": "10999",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/maruti-suzuki-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "security_id": "3351",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/sun-pharmaceutical-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TITAN",
+      "security_id": "3506",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/titan-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "security_id": "11532",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/ultratech-cement-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "security_id": "17963",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/nestle-india-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "WIPRO",
+      "security_id": "3787",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/wipro-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ADANIENT",
+      "security_id": "25",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/adani-enterprises-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "security_id": "15083",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/adani-ports-sez-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "security_id": "3499",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/tata-steel-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TMCV",
+      "security_id": "759782",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/tata-motors-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "security_id": "11723",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/jsw-steel-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "POWERGRID",
+      "security_id": "14977",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/power-grid-corporation-of-india-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "NTPC",
+      "security_id": "11630",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/ntpc-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HCLTECH",
+      "security_id": "7229",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hcl-technologies-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TECHM",
+      "security_id": "13538",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/tech-mahindra-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "security_id": "16675",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/bajaj-finserv-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "M&M",
+      "security_id": "2031",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/mahindra-mahindra-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "security_id": "5258",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/indusind-bank-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "GRASIM",
+      "security_id": "1232",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/grasim-industries-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "CIPLA",
+      "security_id": "694",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/cipla-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "DRREDDY",
+      "security_id": "881",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/dr-reddys-laboratories-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "security_id": "910",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/eicher-motors-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "security_id": "547",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/britannia-industries-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "security_id": "10940",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/divis-laboratories-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "security_id": "157",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/apollo-hospitals-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "security_id": "1348",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hero-motocorp-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "security_id": "16669",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/bajaj-auto-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "COALINDIA",
+      "security_id": "20374",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/coal-india-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HINDALCO",
+      "security_id": "1363",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hindalco-industries-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "ONGC",
+      "security_id": "2475",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/oil-natural-gas-corporation-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "SBILIFE",
+      "security_id": "21808",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/sbi-life-insurance-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "security_id": "467",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/hdfc-life-insurance-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "security_id": "3432",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/tata-consumer-products-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "UPL",
+      "security_id": "11287",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/upl-united-phosphorus-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BPCL",
+      "security_id": "526",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/bharat-petroleum-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "VEDL",
+      "security_id": "3063",
+      "category": "EQUITY",
+      "chart_url": "https://dhan.co/stocks/vedanta-ltd-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "NIFTY50",
+      "security_id": "13",
+      "category": "INDEX",
+      "chart_url": "https://dhan.co/indices/nifty-50-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "BANKNIFTY",
+      "security_id": "25",
+      "category": "INDEX",
+      "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "NIFTYIT",
+      "security_id": "29",
+      "category": "INDEX",
+      "chart_url": "https://dhan.co/indices/nifty-it-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "CRUDEOILM",
+      "security_id": "560978",
+      "category": "MCX",
+      "chart_url": "https://dhan.co/commodity/crude-oil-mini-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "GOLDM",
+      "security_id": "563946",
+      "category": "MCX",
+      "chart_url": "https://dhan.co/commodity/gold-mini-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    },
+    {
+      "symbol": "SILVERM",
+      "security_id": "471726",
+      "category": "MCX",
+      "chart_url": "https://dhan.co/commodity/silver-mini-chart/",
+      "error": "{'error_code': 'DH-901', 'error_type': 'Invalid_Authentication', 'error_message': 'Client ID or user generated access token is invalid or expired.'}"
+    }
+  ]
+}
