@@ -203,6 +203,14 @@
   .info-row.off .mark { color: var(--text-muted); }
   .info-row.off { color: var(--text-muted); }
   .info-note { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); padding: 2px 0; font-style: italic; }
+  .option-levels { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--gridline); }
+  .ol-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin-bottom: 5px; }
+  .ol-row { display: flex; align-items: center; gap: 7px; font-size: 13.5px; color: var(--text-secondary); padding: 1.5px 0; }
+  .ol-row b { margin-left: auto; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+  .ol-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .ol-dot.resistance { background: var(--critical); }
+  .ol-dot.maxpain { background: var(--warning); }
+  .ol-dot.support { background: var(--good); }
   .err-card { color: var(--critical); font-size: 14px; }
   footer { padding: 8px 24px 24px; font-size: 13px; color: var(--text-muted); }
 </style>
@@ -309,6 +317,16 @@ function chartLink(stock) {
   return `<a class="chart-link" href="${stock.chart_url}" target="_blank" rel="noopener noreferrer" title="Open ${stock.symbol} chart on Dhan" onclick="event.stopPropagation()">${CHART_ICON_SVG}</a>`;
 }
 
+function optionLevelsBlock(ol) {
+  if (!ol) return "";
+  return `<div class="option-levels">
+    <div class="ol-title">Option chain &middot; ${ol.expiry} exp &middot; spot ₹${ol.spot.toLocaleString("en-IN")}</div>
+    <div class="ol-row"><span class="ol-dot resistance"></span>Resistance strike (max Call OI)<b>${ol.resistanceStrike ?? "–"}</b></div>
+    <div class="ol-row"><span class="ol-dot maxpain"></span>Max Pain<b>${ol.maxPainStrike ?? "–"}</b></div>
+    <div class="ol-row"><span class="ol-dot support"></span>Support strike (max Put OI)<b>${ol.supportStrike ?? "–"}</b></div>
+  </div>`;
+}
+
 function card(stock, meta) {
   if (stock.error) {
     return `<div class="card card-ERR"><div class="card-top"><div class="symbol-row"><span class="symbol">${stock.symbol}</span>${chartLink(stock)}</div>
@@ -353,6 +371,7 @@ function card(stock, meta) {
       </div>
     </div>
     <div class="info-note">ℹ Next-day CPR (info only, not a filter): ${lvl.nextDayCPR_width_pct != null ? lvl.nextDayCPR_width_pct + "%" : "–"}</div>
+    ${optionLevelsBlock(stock.optionLevels)}
     <div class="counter-row">
       <span>Trades taken today</span>
       <div style="display:flex;align-items:center;gap:8px;">

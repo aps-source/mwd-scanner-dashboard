@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:26:57.077344",
+  "generated_at": "2026-08-29T23:46:24.959334",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2350,7 +2350,14 @@
         "nextDayCPR_width_pct": 0.12
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": true
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-09-01",
+        "spot": 24175.65,
+        "maxPainStrike": 24200.0,
+        "resistanceStrike": 24300.0,
+        "supportStrike": 24000.0
+      }
     },
     {
       "symbol": "BANKNIFTY",
@@ -2396,7 +2403,14 @@
         "nextDayCPR_width_pct": 0.08
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": true
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-09-29",
+        "spot": 57496.3,
+        "maxPainStrike": 57700.0,
+        "resistanceStrike": 57500.0,
+        "supportStrike": 57500.0
+      }
     },
     {
       "symbol": "NIFTYIT",
@@ -2442,7 +2456,8 @@
         "nextDayCPR_width_pct": 0.82
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": false
+      "isNextDayCPRNarrow": false,
+      "optionLevels": null
     },
     {
       "symbol": "CRUDEOILM",
@@ -2488,7 +2503,14 @@
         "nextDayCPR_width_pct": 0.39
       },
       "isNarrowCPR": false,
-      "isNextDayCPRNarrow": true
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-09-17",
+        "spot": 7978.0,
+        "maxPainStrike": 8000.0,
+        "resistanceStrike": 8000.0,
+        "supportStrike": 7900.0
+      }
     },
     {
       "symbol": "GOLDM",
@@ -2534,7 +2556,14 @@
         "nextDayCPR_width_pct": 0.67
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": false
+      "isNextDayCPRNarrow": false,
+      "optionLevels": {
+        "expiry": "2026-09-25",
+        "spot": 158837.0,
+        "maxPainStrike": 158000.0,
+        "resistanceStrike": 170000.0,
+        "supportStrike": 150000.0
+      }
     },
     {
       "symbol": "SILVERM",
@@ -2580,7 +2609,14 @@
         "nextDayCPR_width_pct": 1.11
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": false
+      "isNextDayCPRNarrow": false,
+      "optionLevels": {
+        "expiry": "2026-09-24",
+        "spot": 243862.0,
+        "maxPainStrike": 246000.0,
+        "resistanceStrike": 300000.0,
+        "supportStrike": 220000.0
+      }
     },
     {
       "symbol": "NATGASMINI",
@@ -2626,7 +2662,14 @@
         "nextDayCPR_width_pct": 0.19
       },
       "isNarrowCPR": false,
-      "isNextDayCPRNarrow": true
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-09-23",
+        "spot": 278.3,
+        "maxPainStrike": 270.0,
+        "resistanceStrike": 280.0,
+        "supportStrike": 250.0
+      }
     }
   ]
 }
