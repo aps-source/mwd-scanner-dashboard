@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:14:31.444656",
+  "generated_at": "2026-08-29T23:20:39.455399",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2449,46 +2449,7 @@
       "security_id": "560978",
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/crude-oil-mini-chart/",
-      "error": null,
-      "ltp": 8289.0,
-      "last_bar_time": "2026-08-19T23:15:00",
-      "signal": "NONE",
-      "buy": {
-        "count": 6,
-        "total": 7,
-        "detail": "Above Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
-      },
-      "sell": {
-        "count": 0,
-        "total": 7,
-        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
-      },
-      "levels": {
-        "openRangeClose": 8204.0,
-        "pivot": 8154.0,
-        "r1": 8212.0,
-        "s1": 8080.0,
-        "prevDayHigh": 8228.0,
-        "prevDayLow": 8096.0,
-        "ema15_5": 8290.36,
-        "monthlyCPR_tc": 7987.83,
-        "monthlyCPR_pivot": 7872.67,
-        "monthlyCPR_bc": 7757.5,
-        "weeklyCPR_tc": 7831.83,
-        "weeklyCPR_pivot": 7787.67,
-        "weeklyCPR_bc": 7743.5,
-        "dailyCPR_tc": 8162.0,
-        "dailyCPR_pivot": 8154.0,
-        "dailyCPR_bc": 8146.0,
-        "dailyCPR_width": 16.0,
-        "dailyCPR_width_pct": 0.2,
-        "nextDayCPR_tc": 8262.5,
-        "nextDayCPR_pivot": 8236.0,
-        "nextDayCPR_bc": 8209.5,
-        "nextDayCPR_width_pct": 0.64
-      },
-      "isNarrowCPR": true,
-      "isNextDayCPRNarrow": false
+      "error": "'timestamp'"
     },
     {
       "symbol": "GOLDM",
