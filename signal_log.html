@@ -321,7 +321,7 @@ function symbolsCell(callSymbols, putSymbols) {
 function renderTable(dayEntries) {
   const wrap = document.createElement("div"); wrap.className = "table-wrap";
   const table = document.createElement("table");
-  table.innerHTML = "<thead><tr><th>Time</th><th>CALL</th><th>PUT</th><th>No signal</th><th>Errors</th><th>Symbols</th></tr></thead>";
+  table.innerHTML = "<thead><tr><th>Time</th><th>Symbols</th><th>CALL</th><th>PUT</th><th>No signal</th><th>Errors</th></tr></thead>";
   const tbody = document.createElement("tbody");
   dayEntries.slice().reverse().forEach(e => {
     const tr = document.createElement("tr");
@@ -330,7 +330,7 @@ function renderTable(dayEntries) {
     const putTd = document.createElement("td"); putTd.className = "put"; putTd.textContent = e.put;
     const noneTd = document.createElement("td"); noneTd.textContent = e.none;
     const errTd = document.createElement("td"); errTd.textContent = e.err;
-    tr.append(timeTd, callTd, putTd, noneTd, errTd, symbolsCell(e.call_symbols, e.put_symbols));
+    tr.append(timeTd, symbolsCell(e.call_symbols, e.put_symbols), callTd, putTd, noneTd, errTd);
     tbody.appendChild(tr);
   });
   table.appendChild(tbody);
