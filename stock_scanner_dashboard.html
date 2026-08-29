@@ -203,9 +203,9 @@
   .info-row.off .mark { color: var(--text-muted); }
   .info-row.off { color: var(--text-muted); }
   .info-note { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); padding: 2px 0; font-style: italic; }
-  .option-levels { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--gridline); }
-  .ol-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin-bottom: 5px; }
-  .ol-row { display: flex; align-items: center; gap: 7px; font-size: 13.5px; color: var(--text-secondary); padding: 1.5px 0; }
+  .option-levels { margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--gridline); }
+  .ol-title { font-size: 16px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin-bottom: 5px; }
+  .ol-row { display: flex; align-items: center; gap: 7px; font-size: 18.5px; color: var(--text-secondary); padding: 1.5px 0; }
   .ol-row b { margin-left: auto; color: var(--text-primary); font-variant-numeric: tabular-nums; }
   .ol-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
   .ol-dot.resistance { background: var(--critical); }
@@ -349,6 +349,7 @@ function card(stock, meta) {
       <span class="badge ${sig}">${sig === "NONE" ? "NO SIGNAL" : sig}</span>
     </div>
     ${catChip(stock.category)}
+    ${optionLevelsBlock(stock.optionLevels)}
     <div class="side-label">${sig === "PUT" ? "Put criteria" : "Call criteria"} (${sideConds.count}/${sideConds.total})</div>
     ${rows}
     <div class="info-row ${stock.isNarrowCPR ? "on" : "off"}"><span class="mark">${stock.isNarrowCPR ? "✓" : "·"}</span>Narrow CPR (trending bias)</div>
@@ -371,7 +372,6 @@ function card(stock, meta) {
       </div>
     </div>
     <div class="info-note">ℹ Next-day CPR (info only, not a filter): ${lvl.nextDayCPR_width_pct != null ? lvl.nextDayCPR_width_pct + "%" : "–"}</div>
-    ${optionLevelsBlock(stock.optionLevels)}
     <div class="counter-row">
       <span>Trades taken today</span>
       <div style="display:flex;align-items:center;gap:8px;">
