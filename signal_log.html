@@ -117,13 +117,13 @@
     background: var(--text-primary); color: var(--page);
     border-radius: 8px; padding: 8px 11px; font-size: 12.5px; line-height: 1.5;
     opacity: 0; transform: translate(-50%, -100%); transition: opacity 0.1s ease;
-    white-space: nowrap; box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,0.25);
   }
   .tooltip .tt-head { font-size: 11px; opacity: 0.7; margin-bottom: 3px; font-variant-numeric: tabular-nums; }
-  .tooltip .tt-row { display: flex; align-items: center; gap: 7px; }
+  .tooltip .tt-row { display: flex; align-items: flex-start; gap: 7px; }
   .tooltip .tt-row + .tt-row { margin-top: 2px; }
-  .tooltip .tt-key { width: 9px; height: 9px; border-radius: 2px; flex: none; }
-  .tooltip .tt-val { font-weight: 700; margin-left: auto; font-variant-numeric: tabular-nums; }
+  .tooltip .tt-key { width: 9px; height: 9px; border-radius: 2px; flex: none; margin-top: 4px; }
+  .tooltip .tt-val { font-weight: 700; margin-left: auto; text-align: right; word-break: break-word; }
 
   .table-wrap { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; overflow-x: auto; }
   table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 480px; }
@@ -136,6 +136,11 @@
   tbody tr:last-child td { border-bottom: none; }
   td.call { color: var(--good); font-weight: 600; }
   td.put { color: var(--critical); font-weight: 600; }
+  td.symbols { text-align: left; white-space: normal; font-variant-numeric: normal; min-width: 220px; }
+  .sym-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 7px; border-radius: 999px; margin: 1px 3px 1px 0; }
+  .sym-tag.call { background: color-mix(in srgb, var(--good) 16%, transparent); color: var(--good); }
+  .sym-tag.put { background: color-mix(in srgb, var(--critical) 16%, transparent); color: var(--critical); }
+  .sym-none { color: var(--text-muted); font-size: 12.5px; }
 
   .empty-note {
     border: 1px dashed var(--border); border-radius: 12px; padding: 16px 18px;
@@ -157,7 +162,7 @@
   </header>
 
   <div class="controls">
-    <select id="daySelect"></select>
+    <select id="daySelect" aria-label="Select day"></select>
     <div class="legend">
       <span class="legend-item"><span class="legend-key call"></span>CALL</span>
       <span class="legend-item"><span class="legend-key put"></span>PUT</span>
@@ -271,13 +276,14 @@ function renderChart(dayEntries) {
     hit.addEventListener("pointermove", (ev) => {
       const r = svg.getBoundingClientRect();
       const scaleX = r.width / W;
-      showTooltip(r.left + cx * scaleX, r.top + zeroY - Math.max(callH, 20) + window.scrollY, [
+      const rows = [
         (() => { const h = document.createElement("div"); h.className = "tt-head"; h.textContent = e.time; return h; })(),
-        ttRow("var(--good)", "CALL", e.call),
-        ttRow("var(--critical)", "PUT", e.put),
+        ttRow("var(--good)", "CALL", (e.call_symbols && e.call_symbols.length ? e.call_symbols.join(", ") : e.call)),
+        ttRow("var(--critical)", "PUT", (e.put_symbols && e.put_symbols.length ? e.put_symbols.join(", ") : e.put)),
         ttRow("var(--text-muted)", "No signal", e.none),
         ttRow("var(--warning)", "Errors", e.err),
-      ]);
+      ];
+      showTooltip(r.left + cx * scaleX, r.top + zeroY - Math.max(callH, 20) + window.scrollY, rows);
     });
     hit.addEventListener("pointerleave", hideTooltip);
     svg.appendChild(hit);
@@ -293,10 +299,29 @@ function renderChart(dayEntries) {
   return card;
 }
 
+function symbolsCell(callSymbols, putSymbols) {
+  const td = document.createElement("td"); td.className = "symbols";
+  const call = callSymbols || [], put = putSymbols || [];
+  if (call.length === 0 && put.length === 0) {
+    const span = document.createElement("span"); span.className = "sym-none"; span.textContent = "—";
+    td.appendChild(span);
+    return td;
+  }
+  call.forEach(sym => {
+    const tag = document.createElement("span"); tag.className = "sym-tag call"; tag.textContent = sym;
+    td.appendChild(tag);
+  });
+  put.forEach(sym => {
+    const tag = document.createElement("span"); tag.className = "sym-tag put"; tag.textContent = sym;
+    td.appendChild(tag);
+  });
+  return td;
+}
+
 function renderTable(dayEntries) {
   const wrap = document.createElement("div"); wrap.className = "table-wrap";
   const table = document.createElement("table");
-  table.innerHTML = "<thead><tr><th>Time</th><th>CALL</th><th>PUT</th><th>No signal</th><th>Errors</th></tr></thead>";
+  table.innerHTML = "<thead><tr><th>Time</th><th>CALL</th><th>PUT</th><th>No signal</th><th>Errors</th><th>Symbols</th></tr></thead>";
   const tbody = document.createElement("tbody");
   dayEntries.slice().reverse().forEach(e => {
     const tr = document.createElement("tr");
@@ -305,7 +330,7 @@ function renderTable(dayEntries) {
     const putTd = document.createElement("td"); putTd.className = "put"; putTd.textContent = e.put;
     const noneTd = document.createElement("td"); noneTd.textContent = e.none;
     const errTd = document.createElement("td"); errTd.textContent = e.err;
-    tr.append(timeTd, callTd, putTd, noneTd, errTd);
+    tr.append(timeTd, callTd, putTd, noneTd, errTd, symbolsCell(e.call_symbols, e.put_symbols));
     tbody.appendChild(tr);
   });
   table.appendChild(tbody);
