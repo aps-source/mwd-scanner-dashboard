@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:07:21.666728",
+  "generated_at": "2026-08-29T23:14:31.444656",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2581,6 +2581,52 @@
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
+    },
+    {
+      "symbol": "NATGASMINI",
+      "security_id": "568246",
+      "category": "MCX",
+      "chart_url": "https://dhan.co/commodity/natural-gas-mini-chart/",
+      "error": null,
+      "ltp": 276.1,
+      "last_bar_time": "2026-08-28T23:15:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 3,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+      },
+      "levels": {
+        "openRangeClose": 280.5,
+        "pivot": 282.53,
+        "r1": 287.47,
+        "s1": 279.07,
+        "prevDayHigh": 286.0,
+        "prevDayLow": 277.6,
+        "ema15_5": 276.07,
+        "monthlyCPR_tc": 287.25,
+        "monthlyCPR_pivot": 281.1,
+        "monthlyCPR_bc": 274.95,
+        "weeklyCPR_tc": 269.3,
+        "weeklyCPR_pivot": 268.7,
+        "weeklyCPR_bc": 268.1,
+        "dailyCPR_tc": 283.27,
+        "dailyCPR_pivot": 282.53,
+        "dailyCPR_bc": 281.8,
+        "dailyCPR_width": 1.47,
+        "dailyCPR_width_pct": 0.52,
+        "nextDayCPR_tc": 276.9,
+        "nextDayCPR_pivot": 276.63,
+        "nextDayCPR_bc": 276.37,
+        "nextDayCPR_width_pct": 0.19
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": true
     }
   ]
 }
