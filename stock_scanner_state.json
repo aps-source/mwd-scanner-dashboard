@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:31:02.947238",
+  "generated_at": "2026-09-22T15:46:04.605831",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2313,7 +2313,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 23329.0,
-      "last_bar_time": "2026-09-22T15:15:00",
+      "last_bar_time": "2026-09-22T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2332,7 +2332,7 @@
         "s1": 23330.47,
         "prevDayHigh": 23466.8,
         "prevDayLow": 23314.8,
-        "ema15_5": 23348.28,
+        "ema15_5": 23341.85,
         "monthlyCPR_tc": 24383.95,
         "monthlyCPR_pivot": 24282.77,
         "monthlyCPR_bc": 24181.58,
@@ -2366,7 +2366,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 56215.55,
-      "last_bar_time": "2026-09-22T15:15:00",
+      "last_bar_time": "2026-09-22T15:30:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -2385,7 +2385,7 @@
         "s1": 56270.73,
         "prevDayHigh": 56668.2,
         "prevDayLow": 56269.55,
-        "ema15_5": 56250.93,
+        "ema15_5": 56239.14,
         "monthlyCPR_tc": 57891.58,
         "monthlyCPR_pivot": 57758.22,
         "monthlyCPR_bc": 57624.85,
@@ -2419,7 +2419,7 @@
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
       "ltp": 28582.1,
-      "last_bar_time": "2026-09-22T15:15:00",
+      "last_bar_time": "2026-09-22T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2438,7 +2438,7 @@
         "s1": 28568.97,
         "prevDayHigh": 28905.6,
         "prevDayLow": 28475.35,
-        "ema15_5": 28580.82,
+        "ema15_5": 28581.25,
         "monthlyCPR_tc": 31147.55,
         "monthlyCPR_pivot": 31103.65,
         "monthlyCPR_bc": 31059.75,
@@ -2528,8 +2528,8 @@
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/natural-gas-mini-chart/",
       "error": null,
-      "ltp": 271.9,
-      "last_bar_time": "2026-09-22T15:15:00",
+      "ltp": 271.6,
+      "last_bar_time": "2026-09-22T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2537,9 +2537,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 3,
+        "count": 4,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 272.5,
@@ -2548,7 +2548,7 @@
         "s1": 269.77,
         "prevDayHigh": 279.5,
         "prevDayLow": 271.3,
-        "ema15_5": 271.76,
+        "ema15_5": 271.71,
         "monthlyCPR_tc": 276.8,
         "monthlyCPR_pivot": 274.1,
         "monthlyCPR_bc": 271.4,
@@ -2561,9 +2561,9 @@
         "dailyCPR_width": 1.53,
         "dailyCPR_width_pct": 0.56,
         "nextDayCPR_tc": 273.2,
-        "nextDayCPR_pivot": 272.77,
-        "nextDayCPR_bc": 272.33,
-        "nextDayCPR_width_pct": 0.32
+        "nextDayCPR_pivot": 272.67,
+        "nextDayCPR_bc": 272.13,
+        "nextDayCPR_width_pct": 0.39
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true,
