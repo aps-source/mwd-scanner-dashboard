@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:01:03.121935",
+  "generated_at": "2026-09-28T13:16:03.067653",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -12,8 +12,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
       "error": null,
-      "ltp": 1205.7,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1205.2,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -32,7 +32,7 @@
         "s1": 1214.33,
         "prevDayHigh": 1227.4,
         "prevDayLow": 1210.5,
-        "ema15_5": 1207.29,
+        "ema15_5": 1206.59,
         "monthlyCPR_tc": 1303.55,
         "monthlyCPR_pivot": 1294.7,
         "monthlyCPR_bc": 1285.85,
@@ -44,9 +44,9 @@
         "dailyCPR_bc": 1218.95,
         "dailyCPR_width": 3.83,
         "dailyCPR_width_pct": 0.31,
-        "nextDayCPR_tc": 1212.35,
-        "nextDayCPR_pivot": 1210.13,
-        "nextDayCPR_bc": 1207.92,
+        "nextDayCPR_tc": 1211.9,
+        "nextDayCPR_pivot": 1209.67,
+        "nextDayCPR_bc": 1207.43,
         "nextDayCPR_width_pct": 0.37
       },
       "isNarrowCPR": true,
@@ -58,8 +58,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tcs-tata-consultancy-services-ltd-chart/",
       "error": null,
-      "ltp": 2081.2,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 2082.2,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -78,7 +78,7 @@
         "s1": 2049.0,
         "prevDayHigh": 2090.2,
         "prevDayLow": 2038.1,
-        "ema15_5": 2075.44,
+        "ema15_5": 2077.69,
         "monthlyCPR_tc": 2385.67,
         "monthlyCPR_pivot": 2372.03,
         "monthlyCPR_bc": 2358.4,
@@ -90,10 +90,10 @@
         "dailyCPR_bc": 2064.15,
         "dailyCPR_width": 10.9,
         "dailyCPR_width_pct": 0.53,
-        "nextDayCPR_tc": 2079.3,
-        "nextDayCPR_pivot": 2077.4,
+        "nextDayCPR_tc": 2079.97,
+        "nextDayCPR_pivot": 2077.73,
         "nextDayCPR_bc": 2075.5,
-        "nextDayCPR_width_pct": 0.18
+        "nextDayCPR_width_pct": 0.21
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true
@@ -104,8 +104,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hdfc-bank-ltd-chart/",
       "error": null,
-      "ltp": 720.75,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 720.3,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -124,7 +124,7 @@
         "s1": 725.72,
         "prevDayHigh": 739.65,
         "prevDayLow": 723.0,
-        "ema15_5": 721.58,
+        "ema15_5": 721.15,
         "monthlyCPR_tc": 730.5,
         "monthlyCPR_pivot": 723.33,
         "monthlyCPR_bc": 716.17,
@@ -137,9 +137,9 @@
         "dailyCPR_width": 2.72,
         "dailyCPR_width_pct": 0.37,
         "nextDayCPR_tc": 726.5,
-        "nextDayCPR_pivot": 724.58,
-        "nextDayCPR_bc": 722.67,
-        "nextDayCPR_width_pct": 0.53
+        "nextDayCPR_pivot": 724.43,
+        "nextDayCPR_bc": 722.37,
+        "nextDayCPR_width_pct": 0.57
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -150,18 +150,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/icici-bank-ltd-chart/",
       "error": null,
-      "ltp": 1306.0,
-      "last_bar_time": "2026-09-28T12:45:00",
-      "signal": "NONE",
+      "ltp": 1304.3,
+      "last_bar_time": "2026-09-28T13:00:00",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 6,
+        "count": 7,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 1308.7,
@@ -170,7 +170,7 @@
         "s1": 1312.87,
         "prevDayHigh": 1340.8,
         "prevDayLow": 1312.0,
-        "ema15_5": 1305.24,
+        "ema15_5": 1304.92,
         "monthlyCPR_tc": 1444.58,
         "monthlyCPR_pivot": 1435.17,
         "monthlyCPR_bc": 1425.75,
@@ -183,9 +183,9 @@
         "dailyCPR_width": 0.87,
         "dailyCPR_width_pct": 0.07,
         "nextDayCPR_tc": 1312.2,
-        "nextDayCPR_pivot": 1310.13,
-        "nextDayCPR_bc": 1308.07,
-        "nextDayCPR_width_pct": 0.32
+        "nextDayCPR_pivot": 1309.57,
+        "nextDayCPR_bc": 1306.93,
+        "nextDayCPR_width_pct": 0.4
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -196,8 +196,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/infosys-ltd-chart/",
       "error": null,
-      "ltp": 1002.3,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1002.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -216,7 +216,7 @@
         "s1": 992.2,
         "prevDayHigh": 1004.2,
         "prevDayLow": 991.6,
-        "ema15_5": 999.55,
+        "ema15_5": 1000.54,
         "monthlyCPR_tc": 1151.1,
         "monthlyCPR_pivot": 1145.33,
         "monthlyCPR_bc": 1139.57,
@@ -228,10 +228,10 @@
         "dailyCPR_bc": 997.9,
         "dailyCPR_width": 0.6,
         "dailyCPR_width_pct": 0.06,
-        "nextDayCPR_tc": 1000.0,
-        "nextDayCPR_pivot": 997.7,
+        "nextDayCPR_tc": 1000.13,
+        "nextDayCPR_pivot": 997.77,
         "nextDayCPR_bc": 995.4,
-        "nextDayCPR_width_pct": 0.46
+        "nextDayCPR_width_pct": 0.47
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -242,8 +242,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/itc-ltd-chart/",
       "error": null,
-      "ltp": 266.25,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 266.05,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -262,7 +262,7 @@
         "s1": 267.13,
         "prevDayHigh": 269.0,
         "prevDayLow": 266.3,
-        "ema15_5": 266.35,
+        "ema15_5": 266.25,
         "monthlyCPR_tc": 274.02,
         "monthlyCPR_pivot": 267.85,
         "monthlyCPR_bc": 261.67,
@@ -275,9 +275,9 @@
         "dailyCPR_width": 0.83,
         "dailyCPR_width_pct": 0.31,
         "nextDayCPR_tc": 267.27,
-        "nextDayCPR_pivot": 266.93,
-        "nextDayCPR_bc": 266.59,
-        "nextDayCPR_width_pct": 0.26
+        "nextDayCPR_pivot": 266.87,
+        "nextDayCPR_bc": 266.46,
+        "nextDayCPR_width_pct": 0.31
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -288,8 +288,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/lt-larsen-toubro-ltd-chart/",
       "error": null,
-      "ltp": 3795.4,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 3786.9,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -308,7 +308,7 @@
         "s1": 3851.1,
         "prevDayHigh": 3887.5,
         "prevDayLow": 3842.4,
-        "ema15_5": 3798.45,
+        "ema15_5": 3794.6,
         "monthlyCPR_tc": 4044.57,
         "monthlyCPR_pivot": 4044.23,
         "monthlyCPR_bc": 4043.9,
@@ -320,10 +320,10 @@
         "dailyCPR_bc": 3864.95,
         "dailyCPR_width": 8.7,
         "dailyCPR_width_pct": 0.22,
-        "nextDayCPR_tc": 3824.1,
-        "nextDayCPR_pivot": 3814.53,
-        "nextDayCPR_bc": 3804.97,
-        "nextDayCPR_width_pct": 0.5
+        "nextDayCPR_tc": 3822.1,
+        "nextDayCPR_pivot": 3810.37,
+        "nextDayCPR_bc": 3798.63,
+        "nextDayCPR_width_pct": 0.62
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -334,8 +334,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/state-bank-of-india-ltd-chart/",
       "error": null,
-      "ltp": 963.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 962.8,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -354,7 +354,7 @@
         "s1": 977.3,
         "prevDayHigh": 985.7,
         "prevDayLow": 977.0,
-        "ema15_5": 964.46,
+        "ema15_5": 963.9,
         "monthlyCPR_tc": 1077.7,
         "monthlyCPR_pivot": 1071.8,
         "monthlyCPR_bc": 1065.9,
@@ -366,9 +366,9 @@
         "dailyCPR_bc": 981.35,
         "dailyCPR_width": 0.3,
         "dailyCPR_width_pct": 0.03,
-        "nextDayCPR_tc": 972.4,
-        "nextDayCPR_pivot": 969.27,
-        "nextDayCPR_bc": 966.13,
+        "nextDayCPR_tc": 972.3,
+        "nextDayCPR_pivot": 969.13,
+        "nextDayCPR_bc": 965.97,
         "nextDayCPR_width_pct": 0.65
       },
       "isNarrowCPR": true,
@@ -380,18 +380,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bharti-airtel-ltd-chart/",
       "error": null,
-      "ltp": 1777.9,
-      "last_bar_time": "2026-09-28T12:45:00",
-      "signal": "NONE",
+      "ltp": 1775.1,
+      "last_bar_time": "2026-09-28T13:00:00",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 6,
+        "count": 7,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 1768.4,
@@ -400,7 +400,7 @@
         "s1": 1782.1,
         "prevDayHigh": 1801.7,
         "prevDayLow": 1785.0,
-        "ema15_5": 1777.4,
+        "ema15_5": 1776.63,
         "monthlyCPR_tc": 1921.45,
         "monthlyCPR_pivot": 1884.93,
         "monthlyCPR_bc": 1848.42,
@@ -412,10 +412,10 @@
         "dailyCPR_bc": 1790.45,
         "dailyCPR_width": 2.9,
         "dailyCPR_width_pct": 0.16,
-        "nextDayCPR_tc": 1775.82,
-        "nextDayCPR_pivot": 1773.73,
-        "nextDayCPR_bc": 1771.65,
-        "nextDayCPR_width_pct": 0.23
+        "nextDayCPR_tc": 1774.02,
+        "nextDayCPR_pivot": 1772.93,
+        "nextDayCPR_bc": 1771.85,
+        "nextDayCPR_width_pct": 0.12
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -426,8 +426,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/kotak-mahindra-bank-ltd-chart/",
       "error": null,
-      "ltp": 400.3,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 401.1,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -446,7 +446,7 @@
         "s1": 398.08,
         "prevDayHigh": 407.95,
         "prevDayLow": 399.3,
-        "ema15_5": 399.97,
+        "ema15_5": 400.35,
         "monthlyCPR_tc": 415.3,
         "monthlyCPR_pivot": 411.2,
         "monthlyCPR_bc": 407.1,
@@ -458,10 +458,10 @@
         "dailyCPR_bc": 402.41,
         "dailyCPR_width": 1.22,
         "dailyCPR_width_pct": 0.3,
-        "nextDayCPR_tc": 399.83,
-        "nextDayCPR_pivot": 399.37,
+        "nextDayCPR_tc": 400.37,
+        "nextDayCPR_pivot": 399.63,
         "nextDayCPR_bc": 398.9,
-        "nextDayCPR_width_pct": 0.23
+        "nextDayCPR_width_pct": 0.37
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -472,8 +472,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/axis-bank-ltd-chart/",
       "error": null,
-      "ltp": 1210.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1208.7,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -481,9 +481,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 4,
+        "count": 5,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 1212.3,
@@ -492,7 +492,7 @@
         "s1": 1200.2,
         "prevDayHigh": 1225.0,
         "prevDayLow": 1191.5,
-        "ema15_5": 1209.6,
+        "ema15_5": 1209.3,
         "monthlyCPR_tc": 1284.77,
         "monthlyCPR_pivot": 1269.53,
         "monthlyCPR_bc": 1254.3,
@@ -505,9 +505,9 @@
         "dailyCPR_width": 8.7,
         "dailyCPR_width_pct": 0.72,
         "nextDayCPR_tc": 1212.0,
-        "nextDayCPR_pivot": 1211.33,
-        "nextDayCPR_bc": 1210.67,
-        "nextDayCPR_width_pct": 0.11
+        "nextDayCPR_pivot": 1210.9,
+        "nextDayCPR_bc": 1209.8,
+        "nextDayCPR_width_pct": 0.18
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true
@@ -518,8 +518,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hindustan-unilever-ltd-chart/",
       "error": null,
-      "ltp": 1906.1,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1903.7,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -538,7 +538,7 @@
         "s1": 1923.13,
         "prevDayHigh": 1940.4,
         "prevDayLow": 1915.0,
-        "ema15_5": 1906.73,
+        "ema15_5": 1905.72,
         "monthlyCPR_tc": 2046.15,
         "monthlyCPR_pivot": 2019.9,
         "monthlyCPR_bc": 1993.65,
@@ -551,9 +551,9 @@
         "dailyCPR_width": 8.13,
         "dailyCPR_width_pct": 0.42,
         "nextDayCPR_tc": 1916.95,
-        "nextDayCPR_pivot": 1913.33,
-        "nextDayCPR_bc": 1909.72,
-        "nextDayCPR_width_pct": 0.38
+        "nextDayCPR_pivot": 1912.53,
+        "nextDayCPR_bc": 1908.12,
+        "nextDayCPR_width_pct": 0.46
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -564,18 +564,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-finance-ltd-chart/",
       "error": null,
-      "ltp": 980.2,
-      "last_bar_time": "2026-09-28T12:45:00",
-      "signal": "NONE",
+      "ltp": 979.5,
+      "last_bar_time": "2026-09-28T13:00:00",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 6,
+        "count": 7,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 978.2,
@@ -584,7 +584,7 @@
         "s1": 985.73,
         "prevDayHigh": 997.2,
         "prevDayLow": 980.2,
-        "ema15_5": 980.46,
+        "ema15_5": 980.14,
         "monthlyCPR_tc": 1114.2,
         "monthlyCPR_pivot": 1095.13,
         "monthlyCPR_bc": 1076.07,
@@ -597,9 +597,9 @@
         "dailyCPR_width": 5.53,
         "dailyCPR_width_pct": 0.56,
         "nextDayCPR_tc": 983.15,
-        "nextDayCPR_pivot": 982.17,
-        "nextDayCPR_bc": 981.18,
-        "nextDayCPR_width_pct": 0.2
+        "nextDayCPR_pivot": 981.93,
+        "nextDayCPR_bc": 980.72,
+        "nextDayCPR_width_pct": 0.25
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true
@@ -610,8 +610,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/asian-paints-ltd-chart/",
       "error": null,
-      "ltp": 2428.3,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 2426.6,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -630,7 +630,7 @@
         "s1": 2412.33,
         "prevDayHigh": 2451.0,
         "prevDayLow": 2397.0,
-        "ema15_5": 2427.7,
+        "ema15_5": 2427.33,
         "monthlyCPR_tc": 2684.2,
         "monthlyCPR_pivot": 2674.0,
         "monthlyCPR_bc": 2663.8,
@@ -642,10 +642,10 @@
         "dailyCPR_bc": 2424.0,
         "dailyCPR_width": 15.33,
         "dailyCPR_width_pct": 0.63,
-        "nextDayCPR_tc": 2428.18,
-        "nextDayCPR_pivot": 2428.07,
-        "nextDayCPR_bc": 2427.95,
-        "nextDayCPR_width_pct": 0.01
+        "nextDayCPR_tc": 2427.95,
+        "nextDayCPR_pivot": 2427.5,
+        "nextDayCPR_bc": 2427.05,
+        "nextDayCPR_width_pct": 0.04
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true
@@ -656,8 +656,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/maruti-suzuki-ltd-chart/",
       "error": null,
-      "ltp": 11990.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 11998.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -665,9 +665,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 5,
+        "count": 3,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 12005.0,
@@ -676,7 +676,7 @@
         "s1": 11998.0,
         "prevDayHigh": 12098.0,
         "prevDayLow": 11975.0,
-        "ema15_5": 11981.84,
+        "ema15_5": 11987.23,
         "monthlyCPR_tc": 13854.0,
         "monthlyCPR_pivot": 13751.67,
         "monthlyCPR_bc": 13649.33,
@@ -689,9 +689,9 @@
         "dailyCPR_width": 23.0,
         "dailyCPR_width_pct": 0.19,
         "nextDayCPR_tc": 12030.0,
-        "nextDayCPR_pivot": 12016.67,
-        "nextDayCPR_bc": 12003.33,
-        "nextDayCPR_width_pct": 0.22
+        "nextDayCPR_pivot": 12019.33,
+        "nextDayCPR_bc": 12008.67,
+        "nextDayCPR_width_pct": 0.18
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -702,8 +702,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/sun-pharmaceutical-ltd-chart/",
       "error": null,
-      "ltp": 1841.8,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1845.3,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -711,9 +711,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 5,
+        "count": 3,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 1845.6,
@@ -722,7 +722,7 @@
         "s1": 1841.57,
         "prevDayHigh": 1858.7,
         "prevDayLow": 1841.6,
-        "ema15_5": 1842.24,
+        "ema15_5": 1843.26,
         "monthlyCPR_tc": 1965.92,
         "monthlyCPR_pivot": 1947.03,
         "monthlyCPR_bc": 1928.15,
@@ -735,9 +735,9 @@
         "dailyCPR_width": 0.03,
         "dailyCPR_width_pct": 0.0,
         "nextDayCPR_tc": 1847.05,
-        "nextDayCPR_pivot": 1845.3,
-        "nextDayCPR_bc": 1843.55,
-        "nextDayCPR_width_pct": 0.19
+        "nextDayCPR_pivot": 1846.47,
+        "nextDayCPR_bc": 1845.88,
+        "nextDayCPR_width_pct": 0.06
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -748,8 +748,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/titan-ltd-chart/",
       "error": null,
-      "ltp": 4827.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 4827.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -768,7 +768,7 @@
         "s1": 4835.33,
         "prevDayHigh": 4880.0,
         "prevDayLow": 4821.5,
-        "ema15_5": 4829.01,
+        "ema15_5": 4828.51,
         "monthlyCPR_tc": 5074.68,
         "monthlyCPR_pivot": 5046.97,
         "monthlyCPR_bc": 5019.25,
@@ -781,9 +781,9 @@
         "dailyCPR_width": 13.83,
         "dailyCPR_width_pct": 0.28,
         "nextDayCPR_tc": 4847.75,
-        "nextDayCPR_pivot": 4840.83,
-        "nextDayCPR_bc": 4833.92,
-        "nextDayCPR_width_pct": 0.29
+        "nextDayCPR_pivot": 4841.0,
+        "nextDayCPR_bc": 4834.25,
+        "nextDayCPR_width_pct": 0.28
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -794,8 +794,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/ultratech-cement-ltd-chart/",
       "error": null,
-      "ltp": 10994.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 11001.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -814,7 +814,7 @@
         "s1": 11060.67,
         "prevDayHigh": 11184.0,
         "prevDayLow": 11027.0,
-        "ema15_5": 11005.36,
+        "ema15_5": 11003.91,
         "monthlyCPR_tc": 11817.5,
         "monthlyCPR_pivot": 11695.0,
         "monthlyCPR_bc": 11572.5,
@@ -827,9 +827,9 @@
         "dailyCPR_width": 33.67,
         "dailyCPR_width_pct": 0.3,
         "nextDayCPR_tc": 11070.5,
-        "nextDayCPR_pivot": 11045.0,
-        "nextDayCPR_bc": 11019.5,
-        "nextDayCPR_width_pct": 0.46
+        "nextDayCPR_pivot": 11047.33,
+        "nextDayCPR_bc": 11024.17,
+        "nextDayCPR_width_pct": 0.42
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -840,8 +840,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/nestle-india-ltd-chart/",
       "error": null,
-      "ltp": 1351.7,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1352.3,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -860,7 +860,7 @@
         "s1": 1349.27,
         "prevDayHigh": 1362.6,
         "prevDayLow": 1348.3,
-        "ema15_5": 1353.48,
+        "ema15_5": 1353.09,
         "monthlyCPR_tc": 1494.43,
         "monthlyCPR_pivot": 1492.37,
         "monthlyCPR_bc": 1490.3,
@@ -872,10 +872,10 @@
         "dailyCPR_bc": 1355.45,
         "dailyCPR_width": 0.97,
         "dailyCPR_width_pct": 0.07,
-        "nextDayCPR_tc": 1351.25,
-        "nextDayCPR_pivot": 1350.8,
+        "nextDayCPR_tc": 1351.65,
+        "nextDayCPR_pivot": 1351.0,
         "nextDayCPR_bc": 1350.35,
-        "nextDayCPR_width_pct": 0.07
+        "nextDayCPR_width_pct": 0.1
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -886,8 +886,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/wipro-ltd-chart/",
       "error": null,
-      "ltp": 162.56,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 162.75,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -906,7 +906,7 @@
         "s1": 162.32,
         "prevDayHigh": 164.5,
         "prevDayLow": 161.66,
-        "ema15_5": 162.47,
+        "ema15_5": 162.56,
         "monthlyCPR_tc": 184.0,
         "monthlyCPR_pivot": 183.49,
         "monthlyCPR_bc": 182.99,
@@ -918,10 +918,10 @@
         "dailyCPR_bc": 163.08,
         "dailyCPR_width": 0.66,
         "dailyCPR_width_pct": 0.4,
-        "nextDayCPR_tc": 162.71,
-        "nextDayCPR_pivot": 162.66,
-        "nextDayCPR_bc": 162.61,
-        "nextDayCPR_width_pct": 0.06
+        "nextDayCPR_tc": 162.74,
+        "nextDayCPR_pivot": 162.72,
+        "nextDayCPR_bc": 162.71,
+        "nextDayCPR_width_pct": 0.02
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -932,8 +932,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/adani-enterprises-ltd-chart/",
       "error": null,
-      "ltp": 2836.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 2829.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -952,7 +952,7 @@
         "s1": 2898.3,
         "prevDayHigh": 2939.9,
         "prevDayLow": 2902.5,
-        "ema15_5": 2839.62,
+        "ema15_5": 2836.08,
         "monthlyCPR_tc": 3016.4,
         "monthlyCPR_pivot": 2963.97,
         "monthlyCPR_bc": 2911.53,
@@ -964,10 +964,10 @@
         "dailyCPR_bc": 2917.0,
         "dailyCPR_width": 4.2,
         "dailyCPR_width_pct": 0.14,
-        "nextDayCPR_tc": 2878.0,
-        "nextDayCPR_pivot": 2864.0,
-        "nextDayCPR_bc": 2850.0,
-        "nextDayCPR_width_pct": 0.98
+        "nextDayCPR_tc": 2876.0,
+        "nextDayCPR_pivot": 2860.33,
+        "nextDayCPR_bc": 2844.67,
+        "nextDayCPR_width_pct": 1.1
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -978,8 +978,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/adani-ports-sez-ltd-chart/",
       "error": null,
-      "ltp": 1739.3,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1739.9,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -998,7 +998,7 @@
         "s1": 1776.47,
         "prevDayHigh": 1800.6,
         "prevDayLow": 1775.0,
-        "ema15_5": 1742.51,
+        "ema15_5": 1741.64,
         "monthlyCPR_tc": 1658.5,
         "monthlyCPR_pivot": 1636.7,
         "monthlyCPR_bc": 1614.9,
@@ -1010,10 +1010,10 @@
         "dailyCPR_bc": 1787.8,
         "dailyCPR_width": 1.47,
         "dailyCPR_width_pct": 0.08,
-        "nextDayCPR_tc": 1764.9,
-        "nextDayCPR_pivot": 1756.37,
-        "nextDayCPR_bc": 1747.83,
-        "nextDayCPR_width_pct": 0.97
+        "nextDayCPR_tc": 1764.2,
+        "nextDayCPR_pivot": 1756.1,
+        "nextDayCPR_bc": 1748.0,
+        "nextDayCPR_width_pct": 0.92
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -1024,8 +1024,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-steel-ltd-chart/",
       "error": null,
-      "ltp": 185.67,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 185.7,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1044,7 +1044,7 @@
         "s1": 186.42,
         "prevDayHigh": 190.34,
         "prevDayLow": 187.01,
-        "ema15_5": 186.23,
+        "ema15_5": 186.06,
         "monthlyCPR_tc": 186.82,
         "monthlyCPR_pivot": 186.0,
         "monthlyCPR_bc": 185.18,
@@ -1056,10 +1056,10 @@
         "dailyCPR_bc": 188.08,
         "dailyCPR_width": 0.59,
         "dailyCPR_width_pct": 0.31,
-        "nextDayCPR_tc": 187.04,
-        "nextDayCPR_pivot": 186.58,
+        "nextDayCPR_tc": 187.0,
+        "nextDayCPR_pivot": 186.56,
         "nextDayCPR_bc": 186.13,
-        "nextDayCPR_width_pct": 0.49
+        "nextDayCPR_width_pct": 0.46
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1070,8 +1070,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-motors-ltd-chart/",
       "error": null,
-      "ltp": 431.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 431.15,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1090,7 +1090,7 @@
         "s1": 436.07,
         "prevDayHigh": 445.0,
         "prevDayLow": 436.6,
-        "ema15_5": 431.96,
+        "ema15_5": 431.69,
         "monthlyCPR_tc": 467.29,
         "monthlyCPR_pivot": 464.23,
         "monthlyCPR_bc": 461.18,
@@ -1103,9 +1103,9 @@
         "dailyCPR_width": 0.53,
         "dailyCPR_width_pct": 0.12,
         "nextDayCPR_tc": 435.85,
-        "nextDayCPR_pivot": 434.4,
-        "nextDayCPR_bc": 432.95,
-        "nextDayCPR_width_pct": 0.67
+        "nextDayCPR_pivot": 434.28,
+        "nextDayCPR_bc": 432.72,
+        "nextDayCPR_width_pct": 0.72
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -1116,8 +1116,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/jsw-steel-ltd-chart/",
       "error": null,
-      "ltp": 1263.6,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1260.2,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1125,9 +1125,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 5,
+        "count": 6,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 1268.0,
@@ -1136,7 +1136,7 @@
         "s1": 1261.73,
         "prevDayHigh": 1288.6,
         "prevDayLow": 1266.3,
-        "ema15_5": 1265.1,
+        "ema15_5": 1263.47,
         "monthlyCPR_tc": 1305.37,
         "monthlyCPR_pivot": 1303.03,
         "monthlyCPR_bc": 1300.7,
@@ -1148,10 +1148,10 @@
         "dailyCPR_bc": 1272.88,
         "dailyCPR_width": 4.57,
         "dailyCPR_width_pct": 0.36,
-        "nextDayCPR_tc": 1269.4,
-        "nextDayCPR_pivot": 1267.47,
-        "nextDayCPR_bc": 1265.53,
-        "nextDayCPR_width_pct": 0.31
+        "nextDayCPR_tc": 1268.35,
+        "nextDayCPR_pivot": 1265.63,
+        "nextDayCPR_bc": 1262.92,
+        "nextDayCPR_width_pct": 0.43
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1162,8 +1162,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/power-grid-corporation-of-india-ltd-chart/",
       "error": null,
-      "ltp": 265.95,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 265.65,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1171,9 +1171,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 5,
+        "count": 6,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 265.95,
@@ -1182,7 +1182,7 @@
         "s1": 267.52,
         "prevDayHigh": 269.75,
         "prevDayLow": 266.9,
-        "ema15_5": 265.74,
+        "ema15_5": 265.71,
         "monthlyCPR_tc": 278.08,
         "monthlyCPR_pivot": 273.23,
         "monthlyCPR_bc": 268.39,
@@ -1195,9 +1195,9 @@
         "dailyCPR_width": 0.62,
         "dailyCPR_width_pct": 0.23,
         "nextDayCPR_tc": 267.3,
-        "nextDayCPR_pivot": 266.85,
-        "nextDayCPR_bc": 266.4,
-        "nextDayCPR_width_pct": 0.34
+        "nextDayCPR_pivot": 266.75,
+        "nextDayCPR_bc": 266.2,
+        "nextDayCPR_width_pct": 0.41
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1208,8 +1208,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/ntpc-ltd-chart/",
       "error": null,
-      "ltp": 322.2,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 322.15,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -1228,7 +1228,7 @@
         "s1": 324.03,
         "prevDayHigh": 327.3,
         "prevDayLow": 323.5,
-        "ema15_5": 322.68,
+        "ema15_5": 322.5,
         "monthlyCPR_tc": 336.38,
         "monthlyCPR_pivot": 333.38,
         "monthlyCPR_bc": 330.39,
@@ -1241,9 +1241,9 @@
         "dailyCPR_width": 0.53,
         "dailyCPR_width_pct": 0.16,
         "nextDayCPR_tc": 324.08,
-        "nextDayCPR_pivot": 323.45,
-        "nextDayCPR_bc": 322.83,
-        "nextDayCPR_width_pct": 0.39
+        "nextDayCPR_pivot": 323.43,
+        "nextDayCPR_bc": 322.79,
+        "nextDayCPR_width_pct": 0.4
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1254,18 +1254,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hcl-technologies-ltd-chart/",
       "error": null,
-      "ltp": 1248.4,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1254.1,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
-        "count": 0,
+        "count": 1,
         "total": 7,
-        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 3,
+        "count": 1,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 1251.6,
@@ -1274,7 +1274,7 @@
         "s1": 1238.97,
         "prevDayHigh": 1266.5,
         "prevDayLow": 1234.6,
-        "ema15_5": 1248.04,
+        "ema15_5": 1250.06,
         "monthlyCPR_tc": 1329.9,
         "monthlyCPR_pivot": 1324.0,
         "monthlyCPR_bc": 1318.1,
@@ -1286,10 +1286,10 @@
         "dailyCPR_bc": 1250.55,
         "dailyCPR_width": 4.37,
         "dailyCPR_width_pct": 0.35,
-        "nextDayCPR_tc": 1252.4,
-        "nextDayCPR_pivot": 1251.07,
-        "nextDayCPR_bc": 1249.73,
-        "nextDayCPR_width_pct": 0.21
+        "nextDayCPR_tc": 1253.53,
+        "nextDayCPR_pivot": 1252.97,
+        "nextDayCPR_bc": 1252.4,
+        "nextDayCPR_width_pct": 0.09
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1300,8 +1300,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tech-mahindra-ltd-chart/",
       "error": null,
-      "ltp": 1546.9,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1545.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -1320,7 +1320,7 @@
         "s1": 1532.83,
         "prevDayHigh": 1554.7,
         "prevDayLow": 1526.6,
-        "ema15_5": 1544.8,
+        "ema15_5": 1544.87,
         "monthlyCPR_tc": 1625.92,
         "monthlyCPR_pivot": 1623.83,
         "monthlyCPR_bc": 1621.75,
@@ -1332,10 +1332,10 @@
         "dailyCPR_bc": 1540.65,
         "dailyCPR_width": 6.23,
         "dailyCPR_width_pct": 0.4,
-        "nextDayCPR_tc": 1545.23,
-        "nextDayCPR_pivot": 1543.57,
+        "nextDayCPR_tc": 1543.97,
+        "nextDayCPR_pivot": 1542.93,
         "nextDayCPR_bc": 1541.9,
-        "nextDayCPR_width_pct": 0.22
+        "nextDayCPR_width_pct": 0.13
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1346,8 +1346,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-finserv-ltd-chart/",
       "error": null,
-      "ltp": 1752.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1752.8,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -1366,7 +1366,7 @@
         "s1": 1757.3,
         "prevDayHigh": 1778.1,
         "prevDayLow": 1755.0,
-        "ema15_5": 1754.73,
+        "ema15_5": 1754.09,
         "monthlyCPR_tc": 2043.25,
         "monthlyCPR_pivot": 2035.83,
         "monthlyCPR_bc": 2028.42,
@@ -1379,9 +1379,9 @@
         "dailyCPR_width": 2.3,
         "dailyCPR_width_pct": 0.13,
         "nextDayCPR_tc": 1754.05,
-        "nextDayCPR_pivot": 1753.37,
-        "nextDayCPR_bc": 1752.68,
-        "nextDayCPR_width_pct": 0.08
+        "nextDayCPR_pivot": 1753.63,
+        "nextDayCPR_bc": 1753.22,
+        "nextDayCPR_width_pct": 0.05
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1392,8 +1392,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/mahindra-mahindra-ltd-chart/",
       "error": null,
-      "ltp": 2981.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 2983.1,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1401,9 +1401,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 6,
+        "count": 5,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 2992.3,
@@ -1412,7 +1412,7 @@
         "s1": 2981.67,
         "prevDayHigh": 3045.0,
         "prevDayLow": 2965.0,
-        "ema15_5": 2986.79,
+        "ema15_5": 2985.56,
         "monthlyCPR_tc": 3408.3,
         "monthlyCPR_pivot": 3366.2,
         "monthlyCPR_bc": 3324.1,
@@ -1424,10 +1424,10 @@
         "dailyCPR_bc": 3005.0,
         "dailyCPR_width": 16.67,
         "dailyCPR_width_pct": 0.55,
-        "nextDayCPR_tc": 2998.85,
-        "nextDayCPR_pivot": 2992.9,
-        "nextDayCPR_bc": 2986.95,
-        "nextDayCPR_width_pct": 0.4
+        "nextDayCPR_tc": 2998.75,
+        "nextDayCPR_pivot": 2993.53,
+        "nextDayCPR_bc": 2988.32,
+        "nextDayCPR_width_pct": 0.35
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": true
@@ -1438,8 +1438,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/indusind-bank-ltd-chart/",
       "error": null,
-      "ltp": 902.1,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 904.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1458,7 +1458,7 @@
         "s1": 904.7,
         "prevDayHigh": 923.9,
         "prevDayLow": 906.9,
-        "ema15_5": 899.13,
+        "ema15_5": 900.92,
         "monthlyCPR_tc": 1014.12,
         "monthlyCPR_pivot": 1011.63,
         "monthlyCPR_bc": 1009.15,
@@ -1470,10 +1470,10 @@
         "dailyCPR_bc": 913.2,
         "dailyCPR_width": 2.2,
         "dailyCPR_width_pct": 0.24,
-        "nextDayCPR_tc": 901.8,
-        "nextDayCPR_pivot": 901.5,
+        "nextDayCPR_tc": 903.4,
+        "nextDayCPR_pivot": 902.3,
         "nextDayCPR_bc": 901.2,
-        "nextDayCPR_width_pct": 0.07
+        "nextDayCPR_width_pct": 0.24
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1484,8 +1484,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/grasim-industries-ltd-chart/",
       "error": null,
-      "ltp": 3140.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 3139.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1504,7 +1504,7 @@
         "s1": 3163.17,
         "prevDayHigh": 3212.5,
         "prevDayLow": 3161.0,
-        "ema15_5": 3143.14,
+        "ema15_5": 3141.93,
         "monthlyCPR_tc": 3333.03,
         "monthlyCPR_pivot": 3295.07,
         "monthlyCPR_bc": 3257.1,
@@ -1517,9 +1517,9 @@
         "dailyCPR_width": 2.17,
         "dailyCPR_width_pct": 0.07,
         "nextDayCPR_tc": 3162.0,
-        "nextDayCPR_pivot": 3154.67,
-        "nextDayCPR_bc": 3147.33,
-        "nextDayCPR_width_pct": 0.46
+        "nextDayCPR_pivot": 3154.5,
+        "nextDayCPR_bc": 3147.0,
+        "nextDayCPR_width_pct": 0.48
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1530,8 +1530,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/cipla-ltd-chart/",
       "error": null,
-      "ltp": 1389.6,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1390.8,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1550,7 +1550,7 @@
         "s1": 1386.6,
         "prevDayHigh": 1421.0,
         "prevDayLow": 1388.4,
-        "ema15_5": 1388.21,
+        "ema15_5": 1389.08,
         "monthlyCPR_tc": 1444.6,
         "monthlyCPR_pivot": 1432.8,
         "monthlyCPR_bc": 1421.0,
@@ -1563,9 +1563,9 @@
         "dailyCPR_width": 1.8,
         "dailyCPR_width_pct": 0.13,
         "nextDayCPR_tc": 1394.55,
-        "nextDayCPR_pivot": 1392.9,
-        "nextDayCPR_bc": 1391.25,
-        "nextDayCPR_width_pct": 0.24
+        "nextDayCPR_pivot": 1393.3,
+        "nextDayCPR_bc": 1392.05,
+        "nextDayCPR_width_pct": 0.18
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1576,8 +1576,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/dr-reddys-laboratories-ltd-chart/",
       "error": null,
-      "ltp": 1225.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1228.7,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -1596,7 +1596,7 @@
         "s1": 1193.67,
         "prevDayHigh": 1207.8,
         "prevDayLow": 1193.4,
-        "ema15_5": 1222.71,
+        "ema15_5": 1224.71,
         "monthlyCPR_tc": 1181.25,
         "monthlyCPR_pivot": 1172.3,
         "monthlyCPR_bc": 1163.35,
@@ -1608,13 +1608,13 @@
         "dailyCPR_bc": 1200.6,
         "dailyCPR_width": 0.27,
         "dailyCPR_width_pct": 0.02,
-        "nextDayCPR_tc": 1221.98,
-        "nextDayCPR_pivot": 1218.97,
-        "nextDayCPR_bc": 1215.95,
-        "nextDayCPR_width_pct": 0.49
+        "nextDayCPR_tc": 1224.77,
+        "nextDayCPR_pivot": 1220.83,
+        "nextDayCPR_bc": 1216.9,
+        "nextDayCPR_width_pct": 0.64
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": true
+      "isNextDayCPRNarrow": false
     },
     {
       "symbol": "EICHERMOT",
@@ -1622,8 +1622,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/eicher-motors-ltd-chart/",
       "error": null,
-      "ltp": 7241.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 7242.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1642,7 +1642,7 @@
         "s1": 7314.67,
         "prevDayHigh": 7381.0,
         "prevDayLow": 7305.0,
-        "ema15_5": 7236.67,
+        "ema15_5": 7238.61,
         "monthlyCPR_tc": 8008.5,
         "monthlyCPR_pivot": 7990.17,
         "monthlyCPR_bc": 7971.83,
@@ -1655,8 +1655,8 @@
         "dailyCPR_width": 9.67,
         "dailyCPR_width_pct": 0.13,
         "nextDayCPR_tc": 7269.25,
-        "nextDayCPR_pivot": 7260.0,
-        "nextDayCPR_bc": 7250.75,
+        "nextDayCPR_pivot": 7260.33,
+        "nextDayCPR_bc": 7251.42,
         "nextDayCPR_width_pct": 0.25
       },
       "isNarrowCPR": true,
@@ -1668,18 +1668,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/britannia-industries-ltd-chart/",
       "error": null,
-      "ltp": 4880.0,
-      "last_bar_time": "2026-09-28T12:45:00",
-      "signal": "PUT",
+      "ltp": 4880.5,
+      "last_bar_time": "2026-09-28T13:00:00",
+      "signal": "NONE",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 7,
+        "count": 6,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 4894.5,
@@ -1688,7 +1688,7 @@
         "s1": 4892.17,
         "prevDayHigh": 4939.5,
         "prevDayLow": 4883.0,
-        "ema15_5": 4880.16,
+        "ema15_5": 4880.27,
         "monthlyCPR_tc": 5452.75,
         "monthlyCPR_pivot": 5385.17,
         "monthlyCPR_bc": 5317.58,
@@ -1701,9 +1701,9 @@
         "dailyCPR_width": 9.17,
         "dailyCPR_width_pct": 0.19,
         "nextDayCPR_tc": 4901.0,
-        "nextDayCPR_pivot": 4894.0,
-        "nextDayCPR_bc": 4887.0,
-        "nextDayCPR_width_pct": 0.29
+        "nextDayCPR_pivot": 4894.17,
+        "nextDayCPR_bc": 4887.33,
+        "nextDayCPR_width_pct": 0.28
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1714,8 +1714,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/divis-laboratories-ltd-chart/",
       "error": null,
-      "ltp": 9517.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 9540.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -1723,9 +1723,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 4,
+        "count": 1,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=n"
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 9615.0,
@@ -1734,7 +1734,7 @@
         "s1": 9508.5,
         "prevDayHigh": 9668.5,
         "prevDayLow": 9530.0,
-        "ema15_5": 9534.25,
+        "ema15_5": 9536.33,
         "monthlyCPR_tc": 9240.0,
         "monthlyCPR_pivot": 9013.0,
         "monthlyCPR_bc": 8786.0,
@@ -1747,9 +1747,9 @@
         "dailyCPR_width": 21.5,
         "dailyCPR_width_pct": 0.22,
         "nextDayCPR_tc": 9582.5,
-        "nextDayCPR_pivot": 9560.83,
-        "nextDayCPR_bc": 9539.17,
-        "nextDayCPR_width_pct": 0.45
+        "nextDayCPR_pivot": 9568.5,
+        "nextDayCPR_bc": 9554.5,
+        "nextDayCPR_width_pct": 0.29
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1760,8 +1760,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/apollo-hospitals-ltd-chart/",
       "error": null,
-      "ltp": 8863.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 8882.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1769,9 +1769,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 2,
+        "count": 1,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 8834.0,
@@ -1780,7 +1780,7 @@
         "s1": 8829.5,
         "prevDayHigh": 8934.5,
         "prevDayLow": 8821.5,
-        "ema15_5": 8860.16,
+        "ema15_5": 8867.44,
         "monthlyCPR_tc": 8858.42,
         "monthlyCPR_pivot": 8818.33,
         "monthlyCPR_bc": 8778.25,
@@ -1792,10 +1792,10 @@
         "dailyCPR_bc": 8878.0,
         "dailyCPR_width": 8.0,
         "dailyCPR_width_pct": 0.09,
-        "nextDayCPR_tc": 8859.75,
-        "nextDayCPR_pivot": 8856.5,
+        "nextDayCPR_tc": 8872.42,
+        "nextDayCPR_pivot": 8862.83,
         "nextDayCPR_bc": 8853.25,
-        "nextDayCPR_width_pct": 0.07
+        "nextDayCPR_width_pct": 0.22
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1806,8 +1806,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hero-motocorp-ltd-chart/",
       "error": null,
-      "ltp": 5360.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 5367.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -1815,9 +1815,9 @@
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 1,
+        "count": 0,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 5347.0,
@@ -1826,7 +1826,7 @@
         "s1": 5308.33,
         "prevDayHigh": 5397.0,
         "prevDayLow": 5304.0,
-        "ema15_5": 5353.77,
+        "ema15_5": 5358.18,
         "monthlyCPR_tc": 5662.5,
         "monthlyCPR_pivot": 5591.67,
         "monthlyCPR_bc": 5520.83,
@@ -1838,10 +1838,10 @@
         "dailyCPR_bc": 5350.5,
         "dailyCPR_width": 4.33,
         "dailyCPR_width_pct": 0.08,
-        "nextDayCPR_tc": 5353.92,
-        "nextDayCPR_pivot": 5347.33,
+        "nextDayCPR_tc": 5358.25,
+        "nextDayCPR_pivot": 5349.5,
         "nextDayCPR_bc": 5340.75,
-        "nextDayCPR_width_pct": 0.25
+        "nextDayCPR_width_pct": 0.33
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1852,8 +1852,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-auto-ltd-chart/",
       "error": null,
-      "ltp": 11048.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 11054.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -1872,7 +1872,7 @@
         "s1": 11234.0,
         "prevDayHigh": 11332.0,
         "prevDayLow": 11212.0,
-        "ema15_5": 11054.79,
+        "ema15_5": 11054.53,
         "monthlyCPR_tc": 12017.67,
         "monthlyCPR_pivot": 11905.33,
         "monthlyCPR_bc": 11793.0,
@@ -1885,9 +1885,9 @@
         "dailyCPR_width": 22.0,
         "dailyCPR_width_pct": 0.19,
         "nextDayCPR_tc": 11150.0,
-        "nextDayCPR_pivot": 11116.0,
-        "nextDayCPR_bc": 11082.0,
-        "nextDayCPR_width_pct": 0.61
+        "nextDayCPR_pivot": 11118.0,
+        "nextDayCPR_bc": 11086.0,
+        "nextDayCPR_width_pct": 0.58
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -1898,8 +1898,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/coal-india-ltd-chart/",
       "error": null,
-      "ltp": 425.55,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 425.65,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 2,
@@ -1918,7 +1918,7 @@
         "s1": 422.28,
         "prevDayHigh": 426.65,
         "prevDayLow": 421.35,
-        "ema15_5": 425.75,
+        "ema15_5": 425.71,
         "monthlyCPR_tc": 406.7,
         "monthlyCPR_pivot": 405.05,
         "monthlyCPR_bc": 403.4,
@@ -1931,9 +1931,9 @@
         "dailyCPR_width": 0.93,
         "dailyCPR_width_pct": 0.22,
         "nextDayCPR_tc": 427.0,
-        "nextDayCPR_pivot": 426.52,
-        "nextDayCPR_bc": 426.03,
-        "nextDayCPR_width_pct": 0.23
+        "nextDayCPR_pivot": 426.55,
+        "nextDayCPR_bc": 426.1,
+        "nextDayCPR_width_pct": 0.21
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1944,8 +1944,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hindalco-industries-ltd-chart/",
       "error": null,
-      "ltp": 960.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 960.9,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -1964,7 +1964,7 @@
         "s1": 971.47,
         "prevDayHigh": 983.4,
         "prevDayLow": 971.2,
-        "ema15_5": 961.94,
+        "ema15_5": 961.6,
         "monthlyCPR_tc": 1034.65,
         "monthlyCPR_pivot": 1028.25,
         "monthlyCPR_bc": 1021.85,
@@ -1977,9 +1977,9 @@
         "dailyCPR_width": 0.27,
         "dailyCPR_width_pct": 0.03,
         "nextDayCPR_tc": 962.0,
-        "nextDayCPR_pivot": 961.5,
-        "nextDayCPR_bc": 961.0,
-        "nextDayCPR_width_pct": 0.1
+        "nextDayCPR_pivot": 961.63,
+        "nextDayCPR_bc": 961.27,
+        "nextDayCPR_width_pct": 0.08
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -1990,8 +1990,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/oil-natural-gas-corporation-ltd-chart/",
       "error": null,
-      "ltp": 231.99,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 232.18,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2010,7 +2010,7 @@
         "s1": 233.97,
         "prevDayHigh": 238.0,
         "prevDayLow": 234.71,
-        "ema15_5": 231.89,
+        "ema15_5": 231.98,
         "monthlyCPR_tc": 237.89,
         "monthlyCPR_pivot": 235.86,
         "monthlyCPR_bc": 233.83,
@@ -2023,9 +2023,9 @@
         "dailyCPR_width": 0.74,
         "dailyCPR_width_pct": 0.31,
         "nextDayCPR_tc": 233.32,
-        "nextDayCPR_pivot": 232.88,
-        "nextDayCPR_bc": 232.44,
-        "nextDayCPR_width_pct": 0.38
+        "nextDayCPR_pivot": 232.94,
+        "nextDayCPR_bc": 232.56,
+        "nextDayCPR_width_pct": 0.33
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -2036,8 +2036,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/sbi-life-insurance-ltd-chart/",
       "error": null,
-      "ltp": 1743.5,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 1742.1,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2056,7 +2056,7 @@
         "s1": 1733.2,
         "prevDayHigh": 1758.4,
         "prevDayLow": 1732.3,
-        "ema15_5": 1741.78,
+        "ema15_5": 1741.89,
         "monthlyCPR_tc": 1826.9,
         "monthlyCPR_pivot": 1798.1,
         "monthlyCPR_bc": 1769.3,
@@ -2068,10 +2068,10 @@
         "dailyCPR_bc": 1745.35,
         "dailyCPR_width": 0.9,
         "dailyCPR_width_pct": 0.05,
-        "nextDayCPR_tc": 1741.98,
-        "nextDayCPR_pivot": 1740.47,
+        "nextDayCPR_tc": 1741.05,
+        "nextDayCPR_pivot": 1740.0,
         "nextDayCPR_bc": 1738.95,
-        "nextDayCPR_width_pct": 0.17
+        "nextDayCPR_width_pct": 0.12
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -2082,18 +2082,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hdfc-life-insurance-ltd-chart/",
       "error": null,
-      "ltp": 528.35,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 526.5,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
-        "count": 1,
+        "count": 0,
         "total": 7,
-        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 4,
+        "count": 5,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 529.15,
@@ -2102,7 +2102,7 @@
         "s1": 518.43,
         "prevDayHigh": 535.0,
         "prevDayLow": 516.45,
-        "ema15_5": 530.2,
+        "ema15_5": 528.97,
         "monthlyCPR_tc": 547.0,
         "monthlyCPR_pivot": 545.78,
         "monthlyCPR_bc": 544.57,
@@ -2115,9 +2115,9 @@
         "dailyCPR_width": 1.98,
         "dailyCPR_width_pct": 0.38,
         "nextDayCPR_tc": 530.2,
-        "nextDayCPR_pivot": 529.58,
-        "nextDayCPR_bc": 528.97,
-        "nextDayCPR_width_pct": 0.23
+        "nextDayCPR_pivot": 528.97,
+        "nextDayCPR_bc": 527.73,
+        "nextDayCPR_width_pct": 0.47
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -2128,18 +2128,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-consumer-products-ltd-chart/",
       "error": null,
-      "ltp": 961.6,
-      "last_bar_time": "2026-09-28T12:45:00",
-      "signal": "NONE",
+      "ltp": 960.7,
+      "last_bar_time": "2026-09-28T13:00:00",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 6,
+        "count": 7,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 964.2,
@@ -2148,7 +2148,7 @@
         "s1": 976.17,
         "prevDayHigh": 989.9,
         "prevDayLow": 979.2,
-        "ema15_5": 961.17,
+        "ema15_5": 961.01,
         "monthlyCPR_tc": 1068.9,
         "monthlyCPR_pivot": 1058.43,
         "monthlyCPR_bc": 1047.97,
@@ -2161,9 +2161,9 @@
         "dailyCPR_width": 3.03,
         "dailyCPR_width_pct": 0.31,
         "nextDayCPR_tc": 970.9,
-        "nextDayCPR_pivot": 967.8,
-        "nextDayCPR_bc": 964.7,
-        "nextDayCPR_width_pct": 0.64
+        "nextDayCPR_pivot": 967.5,
+        "nextDayCPR_bc": 964.1,
+        "nextDayCPR_width_pct": 0.7
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -2174,18 +2174,18 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/upl-united-phosphorus-ltd-chart/",
       "error": null,
-      "ltp": 548.0,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 549.75,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
-        "count": 0,
+        "count": 1,
         "total": 7,
-        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 3,
+        "count": 2,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
       },
       "levels": {
         "openRangeClose": 543.6,
@@ -2194,7 +2194,7 @@
         "s1": 545.07,
         "prevDayHigh": 552.0,
         "prevDayLow": 543.6,
-        "ema15_5": 548.0,
+        "ema15_5": 548.58,
         "monthlyCPR_tc": 590.28,
         "monthlyCPR_pivot": 580.93,
         "monthlyCPR_bc": 571.59,
@@ -2206,10 +2206,10 @@
         "dailyCPR_bc": 547.8,
         "dailyCPR_width": 1.47,
         "dailyCPR_width_pct": 0.27,
-        "nextDayCPR_tc": 547.57,
-        "nextDayCPR_pivot": 547.15,
+        "nextDayCPR_tc": 548.74,
+        "nextDayCPR_pivot": 547.73,
         "nextDayCPR_bc": 546.73,
-        "nextDayCPR_width_pct": 0.16
+        "nextDayCPR_width_pct": 0.37
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -2220,8 +2220,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bharat-petroleum-ltd-chart/",
       "error": null,
-      "ltp": 302.65,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 303.0,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -2240,7 +2240,7 @@
         "s1": 305.6,
         "prevDayHigh": 309.4,
         "prevDayLow": 305.8,
-        "ema15_5": 303.4,
+        "ema15_5": 303.27,
         "monthlyCPR_tc": 321.57,
         "monthlyCPR_pivot": 319.1,
         "monthlyCPR_bc": 316.62,
@@ -2253,9 +2253,9 @@
         "dailyCPR_width": 0.2,
         "dailyCPR_width_pct": 0.07,
         "nextDayCPR_tc": 305.38,
-        "nextDayCPR_pivot": 304.47,
-        "nextDayCPR_bc": 303.56,
-        "nextDayCPR_width_pct": 0.6
+        "nextDayCPR_pivot": 304.58,
+        "nextDayCPR_bc": 303.79,
+        "nextDayCPR_width_pct": 0.52
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false
@@ -2266,8 +2266,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/vedanta-ltd-chart/",
       "error": null,
-      "ltp": 261.1,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 260.85,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2286,7 +2286,7 @@
         "s1": 264.32,
         "prevDayHigh": 267.25,
         "prevDayLow": 264.3,
-        "ema15_5": 261.47,
+        "ema15_5": 261.26,
         "monthlyCPR_tc": 277.52,
         "monthlyCPR_pivot": 276.85,
         "monthlyCPR_bc": 276.18,
@@ -2299,9 +2299,9 @@
         "dailyCPR_width": 0.02,
         "dailyCPR_width_pct": 0.01,
         "nextDayCPR_tc": 261.3,
-        "nextDayCPR_pivot": 261.23,
-        "nextDayCPR_bc": 261.17,
-        "nextDayCPR_width_pct": 0.05
+        "nextDayCPR_pivot": 261.15,
+        "nextDayCPR_bc": 261.0,
+        "nextDayCPR_width_pct": 0.11
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true
@@ -2312,8 +2312,8 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
-      "ltp": 22830.15,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 22820.4,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -2332,7 +2332,7 @@
         "s1": 23053.4,
         "prevDayHigh": 23162.7,
         "prevDayLow": 23020.95,
-        "ema15_5": 22837.19,
+        "ema15_5": 22831.6,
         "monthlyCPR_tc": 24383.95,
         "monthlyCPR_pivot": 24282.77,
         "monthlyCPR_bc": 24181.58,
@@ -2345,15 +2345,15 @@
         "dailyCPR_width": 32.45,
         "dailyCPR_width_pct": 0.14,
         "nextDayCPR_tc": 22943.9,
-        "nextDayCPR_pivot": 22905.98,
-        "nextDayCPR_bc": 22868.07,
-        "nextDayCPR_width_pct": 0.33
+        "nextDayCPR_pivot": 22902.73,
+        "nextDayCPR_bc": 22861.57,
+        "nextDayCPR_width_pct": 0.36
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-09-29",
-        "spot": 22829.75,
+        "spot": 22820.55,
         "maxPainStrike": 22950.0,
         "resistanceStrike": 23000.0,
         "supportStrike": 22800.0
@@ -2365,8 +2365,8 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
-      "ltp": 54572.8,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 54571.4,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -2385,7 +2385,7 @@
         "s1": 55381.9,
         "prevDayHigh": 55762.6,
         "prevDayLow": 55373.75,
-        "ema15_5": 54597.56,
+        "ema15_5": 54588.84,
         "monthlyCPR_tc": 57891.58,
         "monthlyCPR_pivot": 57758.22,
         "monthlyCPR_bc": 57624.85,
@@ -2398,16 +2398,16 @@
         "dailyCPR_width": 8.15,
         "dailyCPR_width_pct": 0.01,
         "nextDayCPR_tc": 54942.25,
-        "nextDayCPR_pivot": 54819.1,
-        "nextDayCPR_bc": 54695.95,
+        "nextDayCPR_pivot": 54818.63,
+        "nextDayCPR_bc": 54695.02,
         "nextDayCPR_width_pct": 0.45
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-09-29",
-        "spot": 54589.05,
-        "maxPainStrike": 55500.0,
+        "spot": 54574.4,
+        "maxPainStrike": 55400.0,
         "resistanceStrike": 57500.0,
         "supportStrike": 54000.0
       }
@@ -2418,8 +2418,8 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
-      "ltp": 28104.6,
-      "last_bar_time": "2026-09-28T12:45:00",
+      "ltp": 28141.4,
+      "last_bar_time": "2026-09-28T13:00:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -2438,7 +2438,7 @@
         "s1": 27886.62,
         "prevDayHigh": 28207.35,
         "prevDayLow": 27772.7,
-        "ema15_5": 28066.2,
+        "ema15_5": 28091.26,
         "monthlyCPR_tc": 31147.55,
         "monthlyCPR_pivot": 31103.65,
         "monthlyCPR_bc": 31059.75,
@@ -2450,10 +2450,10 @@
         "dailyCPR_bc": 27990.03,
         "dailyCPR_width": 113.92,
         "dailyCPR_width_pct": 0.41,
-        "nextDayCPR_tc": 28083.22,
-        "nextDayCPR_pivot": 28061.85,
+        "nextDayCPR_tc": 28107.76,
+        "nextDayCPR_pivot": 28074.12,
         "nextDayCPR_bc": 28040.47,
-        "nextDayCPR_width_pct": 0.15
+        "nextDayCPR_width_pct": 0.24
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
