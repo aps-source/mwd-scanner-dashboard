@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:16:04.870657",
+  "generated_at": "2026-10-08T15:31:04.156492",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -1070,8 +1070,8 @@
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-motors-ltd-chart/",
       "error": null,
-      "ltp": 414.0,
-      "last_bar_time": "2026-10-08T15:00:00",
+      "ltp": 411.5,
+      "last_bar_time": "2026-10-08T15:15:00",
       "signal": "PUT",
       "buy": {
         "count": 0,
@@ -1090,7 +1090,7 @@
         "s1": 421.73,
         "prevDayHigh": 433.8,
         "prevDayLow": 424.05,
-        "ema15_5": 416.47,
+        "ema15_5": 414.81,
         "monthlyCPR_tc": 446.65,
         "monthlyCPR_pivot": 437.77,
         "monthlyCPR_bc": 428.88,
@@ -1102,10 +1102,10 @@
         "dailyCPR_bc": 426.61,
         "dailyCPR_width": 2.32,
         "dailyCPR_width_pct": 0.54,
-        "nextDayCPR_tc": 420.9,
-        "nextDayCPR_pivot": 418.6,
-        "nextDayCPR_bc": 416.3,
-        "nextDayCPR_width_pct": 1.1
+        "nextDayCPR_tc": 419.82,
+        "nextDayCPR_pivot": 417.05,
+        "nextDayCPR_bc": 414.28,
+        "nextDayCPR_width_pct": 1.33
       },
       "isNarrowCPR": false,
       "isNextDayCPRNarrow": false
@@ -2312,18 +2312,18 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
-      "ltp": 22215.8,
-      "last_bar_time": "2026-10-08T15:00:00",
-      "signal": "PUT",
+      "ltp": 22231.8,
+      "last_bar_time": "2026-10-08T15:15:00",
+      "signal": "NONE",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 7,
+        "count": 6,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 22472.45,
@@ -2332,7 +2332,7 @@
         "s1": 22527.02,
         "prevDayHigh": 22717.65,
         "prevDayLow": 22546.3,
-        "ema15_5": 22221.6,
+        "ema15_5": 22225.0,
         "monthlyCPR_tc": 23356.4,
         "monthlyCPR_pivot": 23111.08,
         "monthlyCPR_bc": 22865.77,
@@ -2345,17 +2345,17 @@
         "dailyCPR_width": 19.28,
         "dailyCPR_width_pct": 0.09,
         "nextDayCPR_tc": 22389.47,
-        "nextDayCPR_pivot": 22331.58,
-        "nextDayCPR_bc": 22273.69,
-        "nextDayCPR_width_pct": 0.52
+        "nextDayCPR_pivot": 22336.92,
+        "nextDayCPR_bc": 22284.36,
+        "nextDayCPR_width_pct": 0.47
       },
       "isNarrowCPR": true,
-      "isNextDayCPRNarrow": false,
+      "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-10-13",
-        "spot": 22216.0,
+        "spot": 22231.8,
         "maxPainStrike": 22400.0,
-        "resistanceStrike": 22500.0,
+        "resistanceStrike": 24000.0,
         "supportStrike": 22000.0
       }
     },
@@ -2365,18 +2365,18 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
-      "ltp": 54463.75,
-      "last_bar_time": "2026-10-08T15:00:00",
-      "signal": "PUT",
+      "ltp": 54515.05,
+      "last_bar_time": "2026-10-08T15:15:00",
+      "signal": "NONE",
       "buy": {
         "count": 0,
         "total": 7,
         "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
       },
       "sell": {
-        "count": 7,
+        "count": 5,
         "total": 7,
-        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+        "detail": "Below Weekly CPR=n, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
       },
       "levels": {
         "openRangeClose": 54825.75,
@@ -2385,7 +2385,7 @@
         "s1": 54680.93,
         "prevDayHigh": 55340.7,
         "prevDayLow": 54636.2,
-        "ema15_5": 54493.7,
+        "ema15_5": 54500.81,
         "monthlyCPR_tc": 55775.97,
         "monthlyCPR_pivot": 55395.0,
         "monthlyCPR_bc": 55014.03,
@@ -2398,15 +2398,15 @@
         "dailyCPR_width": 44.73,
         "dailyCPR_width_pct": 0.08,
         "nextDayCPR_tc": 54713.07,
-        "nextDayCPR_pivot": 54629.97,
-        "nextDayCPR_bc": 54546.86,
-        "nextDayCPR_width_pct": 0.3
+        "nextDayCPR_pivot": 54647.07,
+        "nextDayCPR_bc": 54581.06,
+        "nextDayCPR_width_pct": 0.24
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 54482.3,
+        "spot": 54515.05,
         "maxPainStrike": 55500.0,
         "resistanceStrike": 56000.0,
         "supportStrike": 55000.0
@@ -2418,8 +2418,8 @@
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
-      "ltp": 27780.35,
-      "last_bar_time": "2026-10-08T15:00:00",
+      "ltp": 27736.6,
+      "last_bar_time": "2026-10-08T15:15:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2438,7 +2438,7 @@
         "s1": 27611.82,
         "prevDayHigh": 28109.45,
         "prevDayLow": 27714.65,
-        "ema15_5": 27801.06,
+        "ema15_5": 27779.57,
         "monthlyCPR_tc": 29571.03,
         "monthlyCPR_pivot": 28948.95,
         "monthlyCPR_bc": 28326.88,
@@ -2451,9 +2451,9 @@
         "dailyCPR_width": 102.83,
         "dailyCPR_width_pct": 0.37,
         "nextDayCPR_tc": 28018.45,
-        "nextDayCPR_pivot": 27939.08,
-        "nextDayCPR_bc": 27859.72,
-        "nextDayCPR_width_pct": 0.57
+        "nextDayCPR_pivot": 27924.5,
+        "nextDayCPR_bc": 27830.55,
+        "nextDayCPR_width_pct": 0.67
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": false,
