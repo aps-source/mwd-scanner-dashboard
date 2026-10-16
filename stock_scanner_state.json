@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:31:12.366232",
+  "generated_at": "2026-10-16T12:46:07.001668",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -11,373 +11,1126 @@
       "security_id": "2885",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D2B1010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1E21010>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TCS",
       "security_id": "11536",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tcs-tata-consultancy-services-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D378410>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE8410>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "HDFCBANK",
       "security_id": "1333",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hdfc-bank-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D3782D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE82D0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ICICIBANK",
       "security_id": "4963",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/icici-bank-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D378550>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE8550>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "INFY",
       "security_id": "1594",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/infosys-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379310>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9310>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ITC",
       "security_id": "1660",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/itc-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "LT",
       "security_id": "11483",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/lt-larsen-toubro-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379A90>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9A90>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "SBIN",
       "security_id": "3045",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/state-bank-of-india-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379310>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9310>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "BHARTIARTL",
       "security_id": "10604",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bharti-airtel-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379450>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9450>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "KOTAKBANK",
       "security_id": "1922",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/kotak-mahindra-bank-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "AXISBANK",
       "security_id": "5900",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/axis-bank-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D378410>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE8410>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "HINDUNILVR",
       "security_id": "1394",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hindustan-unilever-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D378190>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE8190>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "BAJFINANCE",
       "security_id": "317",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-finance-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379A90>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9A90>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ASIANPAINT",
       "security_id": "236",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/asian-paints-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "MARUTI",
       "security_id": "10999",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/maruti-suzuki-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379D10>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9D10>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "SUNPHARMA",
       "security_id": "3351",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/sun-pharmaceutical-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D3796D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE96D0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TITAN",
       "security_id": "3506",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/titan-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379F90>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9F90>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ULTRACEMCO",
       "security_id": "11532",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/ultratech-cement-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "NESTLEIND",
       "security_id": "17963",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/nestle-india-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A350>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA350>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "WIPRO",
       "security_id": "3787",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/wipro-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A0D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA0D0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ADANIENT",
       "security_id": "25",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/adani-enterprises-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D378410>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE8410>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "ADANIPORTS",
       "security_id": "15083",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/adani-ports-sez-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TATASTEEL",
       "security_id": "3499",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-steel-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A710>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA710>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TMCV",
       "security_id": "759782",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-motors-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D379D10>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EE9D10>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "JSWSTEEL",
       "security_id": "11723",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/jsw-steel-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A350>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA350>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "POWERGRID",
       "security_id": "14977",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/power-grid-corporation-of-india-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "NTPC",
       "security_id": "11630",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/ntpc-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37AC10>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEAC10>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "HCLTECH",
       "security_id": "7229",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hcl-technologies-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A990>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA990>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TECHM",
       "security_id": "13538",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tech-mahindra-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37A710>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEA710>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "BAJAJFINSV",
       "security_id": "16675",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-finserv-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "M&M",
       "security_id": "2031",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/mahindra-mahindra-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B110>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEB110>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "INDUSINDBK",
       "security_id": "5258",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/indusind-bank-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37AE90>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEAE90>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "GRASIM",
       "security_id": "1232",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/grasim-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37AC10>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1EEAC10>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "CIPLA",
       "security_id": "694",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/cipla-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000226E1D57ED0>: Failed to resolve 'api.dhan.co' ([Errno 11002] getaddrinfo failed)\"))"
     },
     {
       "symbol": "DRREDDY",
       "security_id": "881",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/dr-reddys-laboratories-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B750>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 1221.2,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 2,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=Y, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 1218.0,
+        "pivot": 1220.83,
+        "r1": 1235.07,
+        "s1": 1207.47,
+        "prevDayHigh": 1234.2,
+        "prevDayLow": 1206.6,
+        "ema15_5": 1221.54,
+        "monthlyCPR_tc": 1218.93,
+        "monthlyCPR_pivot": 1205.17,
+        "monthlyCPR_bc": 1191.4,
+        "weeklyCPR_tc": 1198.2,
+        "weeklyCPR_pivot": 1196.6,
+        "weeklyCPR_bc": 1195.0,
+        "dailyCPR_tc": 1221.27,
+        "dailyCPR_pivot": 1220.83,
+        "dailyCPR_bc": 1220.4,
+        "dailyCPR_width": 0.87,
+        "dailyCPR_width_pct": 0.07,
+        "nextDayCPR_tc": 1220.88,
+        "nextDayCPR_pivot": 1220.57,
+        "nextDayCPR_bc": 1220.25,
+        "nextDayCPR_width_pct": 0.05
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "EICHERMOT",
       "security_id": "910",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/eicher-motors-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B390>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 7248.5,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 7202.0,
+        "pivot": 7183.17,
+        "r1": 7316.33,
+        "s1": 7095.83,
+        "prevDayHigh": 7270.5,
+        "prevDayLow": 7050.0,
+        "ema15_5": 7258.79,
+        "monthlyCPR_tc": 7586.0,
+        "monthlyCPR_pivot": 7430.67,
+        "monthlyCPR_bc": 7275.33,
+        "weeklyCPR_tc": 7009.42,
+        "weeklyCPR_pivot": 6974.33,
+        "weeklyCPR_bc": 6939.25,
+        "dailyCPR_tc": 7206.08,
+        "dailyCPR_pivot": 7183.17,
+        "dailyCPR_bc": 7160.25,
+        "dailyCPR_width": 45.83,
+        "dailyCPR_width_pct": 0.64,
+        "nextDayCPR_tc": 7244.08,
+        "nextDayCPR_pivot": 7239.67,
+        "nextDayCPR_bc": 7235.25,
+        "nextDayCPR_width_pct": 0.12
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "BRITANNIA",
       "security_id": "547",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/britannia-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B110>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 4795.3,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 0,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 4,
+        "total": 7,
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 4821.0,
+        "pivot": 4866.93,
+        "r1": 4952.07,
+        "s1": 4769.87,
+        "prevDayHigh": 4964.0,
+        "prevDayLow": 4781.8,
+        "ema15_5": 4803.49,
+        "monthlyCPR_tc": 5007.0,
+        "monthlyCPR_pivot": 4931.83,
+        "monthlyCPR_bc": 4856.67,
+        "weeklyCPR_tc": 4816.5,
+        "weeklyCPR_pivot": 4814.9,
+        "weeklyCPR_bc": 4813.3,
+        "dailyCPR_tc": 4872.9,
+        "dailyCPR_pivot": 4866.93,
+        "dailyCPR_bc": 4860.97,
+        "dailyCPR_width": 11.93,
+        "dailyCPR_width_pct": 0.25,
+        "nextDayCPR_tc": 4816.15,
+        "nextDayCPR_pivot": 4809.2,
+        "nextDayCPR_bc": 4802.25,
+        "nextDayCPR_width_pct": 0.29
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "DIVISLAB",
       "security_id": "10940",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/divis-laboratories-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 9151.5,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 9040.0,
+        "pivot": 9033.17,
+        "r1": 9116.33,
+        "s1": 8941.83,
+        "prevDayHigh": 9124.5,
+        "prevDayLow": 8950.0,
+        "ema15_5": 9141.32,
+        "monthlyCPR_tc": 9331.5,
+        "monthlyCPR_pivot": 9314.0,
+        "monthlyCPR_bc": 9296.5,
+        "weeklyCPR_tc": 9386.75,
+        "weeklyCPR_pivot": 9363.0,
+        "weeklyCPR_bc": 9339.25,
+        "dailyCPR_tc": 9037.25,
+        "dailyCPR_pivot": 9033.17,
+        "dailyCPR_bc": 9029.08,
+        "dailyCPR_width": 8.17,
+        "dailyCPR_width_pct": 0.09,
+        "nextDayCPR_tc": 9139.92,
+        "nextDayCPR_pivot": 9128.33,
+        "nextDayCPR_bc": 9116.75,
+        "nextDayCPR_width_pct": 0.25
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "APOLLOHOSP",
       "security_id": "157",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/apollo-hospitals-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37BC50>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 7841.0,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 0,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 5,
+        "total": 7,
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 7825.0,
+        "pivot": 7871.33,
+        "r1": 7975.17,
+        "s1": 7776.17,
+        "prevDayHigh": 7966.5,
+        "prevDayLow": 7767.5,
+        "ema15_5": 7847.52,
+        "monthlyCPR_tc": 8561.75,
+        "monthlyCPR_pivot": 8402.5,
+        "monthlyCPR_bc": 8243.25,
+        "weeklyCPR_tc": 7952.92,
+        "weeklyCPR_pivot": 7897.33,
+        "weeklyCPR_bc": 7841.75,
+        "dailyCPR_tc": 7875.67,
+        "dailyCPR_pivot": 7871.33,
+        "dailyCPR_bc": 7867.0,
+        "dailyCPR_width": 8.67,
+        "dailyCPR_width_pct": 0.11,
+        "nextDayCPR_tc": 7861.5,
+        "nextDayCPR_pivot": 7854.67,
+        "nextDayCPR_bc": 7847.83,
+        "nextDayCPR_width_pct": 0.17
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "HEROMOTOCO",
       "security_id": "1348",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hero-motocorp-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 5186.0,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 5163.0,
+        "pivot": 5136.83,
+        "r1": 5238.17,
+        "s1": 5080.67,
+        "prevDayHigh": 5193.0,
+        "prevDayLow": 5035.5,
+        "ema15_5": 5188.39,
+        "monthlyCPR_tc": 5413.0,
+        "monthlyCPR_pivot": 5366.17,
+        "monthlyCPR_bc": 5319.33,
+        "weeklyCPR_tc": 5015.25,
+        "weeklyCPR_pivot": 4978.5,
+        "weeklyCPR_bc": 4941.75,
+        "dailyCPR_tc": 5159.42,
+        "dailyCPR_pivot": 5136.83,
+        "dailyCPR_bc": 5114.25,
+        "dailyCPR_width": 45.17,
+        "dailyCPR_width_pct": 0.88,
+        "nextDayCPR_tc": 5182.5,
+        "nextDayCPR_pivot": 5179.0,
+        "nextDayCPR_bc": 5175.5,
+        "nextDayCPR_width_pct": 0.14
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "BAJAJ-AUTO",
       "security_id": "16669",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bajaj-auto-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B750>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 10403.0,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 10290.0,
+        "pivot": 10315.67,
+        "r1": 10429.33,
+        "s1": 10226.33,
+        "prevDayHigh": 10405.0,
+        "prevDayLow": 10202.0,
+        "ema15_5": 10415.6,
+        "monthlyCPR_tc": 11624.5,
+        "monthlyCPR_pivot": 11382.67,
+        "monthlyCPR_bc": 11140.83,
+        "weeklyCPR_tc": 9867.0,
+        "weeklyCPR_pivot": 9851.33,
+        "weeklyCPR_bc": 9835.67,
+        "dailyCPR_tc": 10327.83,
+        "dailyCPR_pivot": 10315.67,
+        "dailyCPR_bc": 10303.5,
+        "dailyCPR_width": 24.33,
+        "dailyCPR_width_pct": 0.24,
+        "nextDayCPR_tc": 10389.33,
+        "nextDayCPR_pivot": 10375.67,
+        "nextDayCPR_bc": 10362.0,
+        "nextDayCPR_width_pct": 0.26
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "COALINDIA",
       "security_id": "20374",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/coal-india-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 416.8,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 0,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 413.25,
+        "pivot": 417.78,
+        "r1": 420.52,
+        "s1": 415.27,
+        "prevDayHigh": 420.3,
+        "prevDayLow": 415.05,
+        "ema15_5": 417.0,
+        "monthlyCPR_tc": 422.18,
+        "monthlyCPR_pivot": 420.02,
+        "monthlyCPR_bc": 417.85,
+        "weeklyCPR_tc": 417.38,
+        "weeklyCPR_pivot": 415.03,
+        "weeklyCPR_bc": 412.69,
+        "dailyCPR_tc": 417.89,
+        "dailyCPR_pivot": 417.78,
+        "dailyCPR_bc": 417.68,
+        "dailyCPR_width": 0.22,
+        "dailyCPR_width_pct": 0.05,
+        "nextDayCPR_tc": 416.43,
+        "nextDayCPR_pivot": 416.07,
+        "nextDayCPR_bc": 415.7,
+        "nextDayCPR_width_pct": 0.18
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "HINDALCO",
       "security_id": "1363",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hindalco-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B610>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 910.2,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 4,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 896.3,
+        "pivot": 882.05,
+        "r1": 906.95,
+        "s1": 866.25,
+        "prevDayHigh": 897.85,
+        "prevDayLow": 857.15,
+        "ema15_5": 906.88,
+        "monthlyCPR_tc": 987.5,
+        "monthlyCPR_pivot": 972.03,
+        "monthlyCPR_bc": 956.57,
+        "weeklyCPR_tc": 920.27,
+        "weeklyCPR_pivot": 912.85,
+        "weeklyCPR_bc": 905.43,
+        "dailyCPR_tc": 886.6,
+        "dailyCPR_pivot": 882.05,
+        "dailyCPR_bc": 877.5,
+        "dailyCPR_width": 9.1,
+        "dailyCPR_width_pct": 1.03,
+        "nextDayCPR_tc": 907.28,
+        "nextDayCPR_pivot": 904.37,
+        "nextDayCPR_bc": 901.45,
+        "nextDayCPR_width_pct": 0.65
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": false
     },
     {
       "symbol": "ONGC",
       "security_id": "2475",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/oil-natural-gas-corporation-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37BED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 223.68,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 222.69,
+        "pivot": 225.01,
+        "r1": 227.18,
+        "s1": 222.87,
+        "prevDayHigh": 227.16,
+        "prevDayLow": 222.85,
+        "ema15_5": 223.75,
+        "monthlyCPR_tc": 233.38,
+        "monthlyCPR_pivot": 230.12,
+        "monthlyCPR_bc": 226.86,
+        "weeklyCPR_tc": 222.61,
+        "weeklyCPR_pivot": 221.86,
+        "weeklyCPR_bc": 221.11,
+        "dailyCPR_tc": 225.02,
+        "dailyCPR_pivot": 225.01,
+        "dailyCPR_bc": 225.0,
+        "dailyCPR_width": 0.02,
+        "dailyCPR_width_pct": 0.01,
+        "nextDayCPR_tc": 223.65,
+        "nextDayCPR_pivot": 223.62,
+        "nextDayCPR_bc": 223.59,
+        "nextDayCPR_width_pct": 0.03
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "SBILIFE",
       "security_id": "21808",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/sbi-life-insurance-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D2D82D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 1666.0,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 2,
+        "total": 7,
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 1646.0,
+        "pivot": 1661.97,
+        "r1": 1673.93,
+        "s1": 1649.43,
+        "prevDayHigh": 1674.5,
+        "prevDayLow": 1650.0,
+        "ema15_5": 1666.88,
+        "monthlyCPR_tc": 1722.15,
+        "monthlyCPR_pivot": 1709.67,
+        "monthlyCPR_bc": 1697.18,
+        "weeklyCPR_tc": 1706.2,
+        "weeklyCPR_pivot": 1698.63,
+        "weeklyCPR_bc": 1691.07,
+        "dailyCPR_tc": 1662.25,
+        "dailyCPR_pivot": 1661.97,
+        "dailyCPR_bc": 1661.68,
+        "dailyCPR_width": 0.57,
+        "dailyCPR_width_pct": 0.03,
+        "nextDayCPR_tc": 1663.33,
+        "nextDayCPR_pivot": 1660.67,
+        "nextDayCPR_bc": 1658.0,
+        "nextDayCPR_width_pct": 0.32
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "HDFCLIFE",
       "security_id": "467",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/hdfc-life-insurance-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37BED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 548.05,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 0,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 537.7,
+        "pivot": 549.23,
+        "r1": 557.37,
+        "s1": 543.87,
+        "prevDayHigh": 554.6,
+        "prevDayLow": 541.1,
+        "ema15_5": 545.4,
+        "monthlyCPR_tc": 538.05,
+        "monthlyCPR_pivot": 531.2,
+        "monthlyCPR_bc": 524.35,
+        "weeklyCPR_tc": 551.82,
+        "weeklyCPR_pivot": 547.63,
+        "weeklyCPR_bc": 543.45,
+        "dailyCPR_tc": 550.62,
+        "dailyCPR_pivot": 549.23,
+        "dailyCPR_bc": 547.85,
+        "dailyCPR_width": 2.77,
+        "dailyCPR_width_pct": 0.5,
+        "nextDayCPR_tc": 545.99,
+        "nextDayCPR_pivot": 543.93,
+        "nextDayCPR_bc": 541.88,
+        "nextDayCPR_width_pct": 0.76
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": false
     },
     {
       "symbol": "TATACONSUM",
       "security_id": "3432",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tata-consumer-products-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 979.45,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 2,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 978.85,
+        "pivot": 995.23,
+        "r1": 1005.97,
+        "s1": 979.27,
+        "prevDayHigh": 1011.2,
+        "prevDayLow": 984.5,
+        "ema15_5": 979.74,
+        "monthlyCPR_tc": 997.85,
+        "monthlyCPR_pivot": 983.63,
+        "monthlyCPR_bc": 969.42,
+        "weeklyCPR_tc": 959.5,
+        "weeklyCPR_pivot": 957.2,
+        "weeklyCPR_bc": 954.9,
+        "dailyCPR_tc": 997.85,
+        "dailyCPR_pivot": 995.23,
+        "dailyCPR_bc": 992.62,
+        "dailyCPR_width": 5.23,
+        "dailyCPR_width_pct": 0.53,
+        "nextDayCPR_tc": 984.98,
+        "nextDayCPR_pivot": 983.13,
+        "nextDayCPR_bc": 981.29,
+        "nextDayCPR_width_pct": 0.37
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "UPL",
       "security_id": "11287",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/upl-united-phosphorus-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 537.85,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 3,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=Y, Below Daily S1=Y"
+      },
+      "levels": {
+        "openRangeClose": 538.4,
+        "pivot": 544.85,
+        "r1": 550.7,
+        "s1": 540.05,
+        "prevDayHigh": 549.65,
+        "prevDayLow": 539.0,
+        "ema15_5": 538.82,
+        "monthlyCPR_tc": 561.0,
+        "monthlyCPR_pivot": 553.63,
+        "monthlyCPR_bc": 546.27,
+        "weeklyCPR_tc": 501.62,
+        "weeklyCPR_pivot": 497.75,
+        "weeklyCPR_bc": 493.88,
+        "dailyCPR_tc": 545.38,
+        "dailyCPR_pivot": 544.85,
+        "dailyCPR_bc": 544.33,
+        "dailyCPR_width": 1.05,
+        "dailyCPR_width_pct": 0.19,
+        "nextDayCPR_tc": 538.25,
+        "nextDayCPR_pivot": 538.12,
+        "nextDayCPR_bc": 537.98,
+        "nextDayCPR_width_pct": 0.05
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "BPCL",
       "security_id": "526",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/bharat-petroleum-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37BC50>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 294.8,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 291.7,
+        "pivot": 291.67,
+        "r1": 296.18,
+        "s1": 288.43,
+        "prevDayHigh": 294.9,
+        "prevDayLow": 287.15,
+        "ema15_5": 294.53,
+        "monthlyCPR_tc": 308.98,
+        "monthlyCPR_pivot": 306.55,
+        "monthlyCPR_bc": 304.12,
+        "weeklyCPR_tc": 294.75,
+        "weeklyCPR_pivot": 292.1,
+        "weeklyCPR_bc": 289.45,
+        "dailyCPR_tc": 292.31,
+        "dailyCPR_pivot": 291.67,
+        "dailyCPR_bc": 291.02,
+        "dailyCPR_width": 1.28,
+        "dailyCPR_width_pct": 0.44,
+        "nextDayCPR_tc": 294.07,
+        "nextDayCPR_pivot": 293.33,
+        "nextDayCPR_bc": 292.6,
+        "nextDayCPR_width_pct": 0.5
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "VEDL",
       "security_id": "3063",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/vedanta-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D1E7ED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 248.65,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 3,
+        "total": 7,
+        "detail": "Above Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+      },
+      "sell": {
+        "count": 2,
+        "total": 7,
+        "detail": "Below Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 246.3,
+        "pivot": 245.73,
+        "r1": 248.17,
+        "s1": 243.47,
+        "prevDayHigh": 248.0,
+        "prevDayLow": 243.3,
+        "ema15_5": 248.39,
+        "monthlyCPR_tc": 267.23,
+        "monthlyCPR_pivot": 263.65,
+        "monthlyCPR_bc": 260.08,
+        "weeklyCPR_tc": 261.79,
+        "weeklyCPR_pivot": 260.83,
+        "weeklyCPR_bc": 259.88,
+        "dailyCPR_tc": 245.82,
+        "dailyCPR_pivot": 245.73,
+        "dailyCPR_bc": 245.65,
+        "dailyCPR_width": 0.17,
+        "dailyCPR_width_pct": 0.07,
+        "nextDayCPR_tc": 248.24,
+        "nextDayCPR_pivot": 247.83,
+        "nextDayCPR_bc": 247.43,
+        "nextDayCPR_width_pct": 0.33
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "NIFTY50",
       "security_id": "13",
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37BED0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
-      "optionLevels": null
+      "error": null,
+      "ltp": 23122.9,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 5,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=Y, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 22974.7,
+        "pivot": 22897.05,
+        "r1": 23156.7,
+        "s1": 22737.7,
+        "prevDayHigh": 23056.4,
+        "prevDayLow": 22637.4,
+        "ema15_5": 23117.99,
+        "monthlyCPR_tc": 23356.4,
+        "monthlyCPR_pivot": 23111.08,
+        "monthlyCPR_bc": 22865.77,
+        "weeklyCPR_tc": 22506.3,
+        "weeklyCPR_pivot": 22492.15,
+        "weeklyCPR_bc": 22478.0,
+        "dailyCPR_tc": 22947.2,
+        "dailyCPR_pivot": 22897.05,
+        "dailyCPR_bc": 22846.9,
+        "dailyCPR_width": 100.3,
+        "dailyCPR_width_pct": 0.44,
+        "nextDayCPR_tc": 23092.54,
+        "nextDayCPR_pivot": 23062.18,
+        "nextDayCPR_bc": 23031.82,
+        "nextDayCPR_width_pct": 0.26
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-10-19",
+        "spot": 23131.25,
+        "maxPainStrike": 23050.0,
+        "resistanceStrike": 23100.0,
+        "supportStrike": 22000.0
+      }
     },
     {
       "symbol": "BANKNIFTY",
       "security_id": "25",
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
-      "optionLevels": null
+      "error": null,
+      "ltp": 55766.05,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 4,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 55629.65,
+        "pivot": 55718.33,
+        "r1": 56157.67,
+        "s1": 55371.17,
+        "prevDayHigh": 56065.5,
+        "prevDayLow": 55279.0,
+        "ema15_5": 55734.94,
+        "monthlyCPR_tc": 55775.97,
+        "monthlyCPR_pivot": 55395.0,
+        "monthlyCPR_bc": 55014.03,
+        "weeklyCPR_tc": 55136.08,
+        "weeklyCPR_pivot": 55015.52,
+        "weeklyCPR_bc": 54894.95,
+        "dailyCPR_tc": 55764.42,
+        "dailyCPR_pivot": 55718.33,
+        "dailyCPR_bc": 55672.25,
+        "dailyCPR_width": 92.17,
+        "dailyCPR_width_pct": 0.17,
+        "nextDayCPR_tc": 55763.34,
+        "nextDayCPR_pivot": 55760.63,
+        "nextDayCPR_bc": 55757.93,
+        "nextDayCPR_width_pct": 0.01
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true,
+      "optionLevels": {
+        "expiry": "2026-10-27",
+        "spot": 55795.6,
+        "maxPainStrike": 55700.0,
+        "resistanceStrike": 56000.0,
+        "supportStrike": 55000.0
+      }
     },
     {
       "symbol": "NIFTYIT",
       "security_id": "29",
       "category": "INDEX",
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
+      "error": null,
+      "ltp": 31707.5,
+      "last_bar_time": "2026-10-16T12:30:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 6,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 31515.45,
+        "pivot": 30749.17,
+        "r1": 31008.78,
+        "s1": 30460.18,
+        "prevDayHigh": 31038.15,
+        "prevDayLow": 30489.55,
+        "ema15_5": 31653.79,
+        "monthlyCPR_tc": 29571.03,
+        "monthlyCPR_pivot": 28948.95,
+        "monthlyCPR_bc": 28326.88,
+        "weeklyCPR_tc": 28455.72,
+        "weeklyCPR_pivot": 28336.55,
+        "weeklyCPR_bc": 28217.38,
+        "dailyCPR_tc": 30763.85,
+        "dailyCPR_pivot": 30749.17,
+        "dailyCPR_bc": 30734.48,
+        "dailyCPR_width": 29.37,
+        "dailyCPR_width_pct": 0.1,
+        "nextDayCPR_tc": 31591.2,
+        "nextDayCPR_pivot": 31474.9,
+        "nextDayCPR_bc": 31358.6,
+        "nextDayCPR_width_pct": 0.74
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": false,
       "optionLevels": null
     },
     {
@@ -385,7 +1138,7 @@
       "security_id": "565900",
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/crude-oil-mini-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
+      "error": "'timestamp'",
       "optionLevels": null
     },
     {
@@ -393,7 +1146,7 @@
       "security_id": "563946",
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/gold-mini-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
+      "error": "'timestamp'",
       "optionLevels": null
     },
     {
@@ -401,7 +1154,7 @@
       "security_id": "471726",
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/silver-mini-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D37B9D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
+      "error": "'timestamp'",
       "optionLevels": null
     },
     {
@@ -409,7 +1162,7 @@
       "security_id": "568246",
       "category": "MCX",
       "chart_url": "https://dhan.co/commodity/natural-gas-mini-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001967D2D8410>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))",
+      "error": "'timestamp'",
       "optionLevels": null
     }
   ]
