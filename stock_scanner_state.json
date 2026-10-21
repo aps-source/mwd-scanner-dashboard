@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:31:05.785834",
+  "generated_at": "2026-10-21T13:36:38.682585",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -11,14 +11,92 @@
       "security_id": "2885",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000220DCB8D010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 1208.8,
+      "last_bar_time": "2026-10-21T13:15:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 1225.7,
+        "pivot": 1210.67,
+        "r1": 1220.33,
+        "s1": 1193.13,
+        "prevDayHigh": 1228.2,
+        "prevDayLow": 1201.0,
+        "ema15_5": 1211.77,
+        "monthlyCPR_tc": 1257.35,
+        "monthlyCPR_pivot": 1233.57,
+        "monthlyCPR_bc": 1209.78,
+        "weeklyCPR_tc": 1201.5,
+        "weeklyCPR_pivot": 1193.5,
+        "weeklyCPR_bc": 1185.5,
+        "dailyCPR_tc": 1214.6,
+        "dailyCPR_pivot": 1210.67,
+        "dailyCPR_bc": 1206.73,
+        "dailyCPR_width": 7.87,
+        "dailyCPR_width_pct": 0.65,
+        "nextDayCPR_tc": 1220.8,
+        "nextDayCPR_pivot": 1216.8,
+        "nextDayCPR_bc": 1212.8,
+        "nextDayCPR_width_pct": 0.66
+      },
+      "isNarrowCPR": false,
+      "isNextDayCPRNarrow": false
     },
     {
       "symbol": "TCS",
       "security_id": "11536",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/tcs-tata-consultancy-services-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000220DCC59590>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 2517.8,
+      "last_bar_time": "2026-10-21T13:15:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 6,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+      },
+      "sell": {
+        "count": 0,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 2524.0,
+        "pivot": 2463.33,
+        "r1": 2494.57,
+        "s1": 2429.67,
+        "prevDayHigh": 2497.0,
+        "prevDayLow": 2432.1,
+        "ema15_5": 2515.67,
+        "monthlyCPR_tc": 2204.15,
+        "monthlyCPR_pivot": 2154.67,
+        "monthlyCPR_bc": 2105.18,
+        "weeklyCPR_tc": 2412.53,
+        "weeklyCPR_pivot": 2357.67,
+        "weeklyCPR_bc": 2302.8,
+        "dailyCPR_tc": 2464.55,
+        "dailyCPR_pivot": 2463.33,
+        "dailyCPR_bc": 2462.12,
+        "dailyCPR_width": 2.43,
+        "dailyCPR_width_pct": 0.1,
+        "nextDayCPR_tc": 2513.5,
+        "nextDayCPR_pivot": 2509.2,
+        "nextDayCPR_bc": 2504.9,
+        "nextDayCPR_width_pct": 0.34
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": true
     },
     {
       "symbol": "HDFCBANK",
@@ -2275,7 +2353,7 @@
       "isNextDayCPRNarrow": false,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 22725.2,
+        "spot": 22721.3,
         "maxPainStrike": 22950.0,
         "resistanceStrike": 23000.0,
         "supportStrike": 22000.0
@@ -2328,7 +2406,7 @@
       "isNextDayCPRNarrow": false,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 54785.55,
+        "spot": 54790.25,
         "maxPainStrike": 55500.0,
         "resistanceStrike": 56000.0,
         "supportStrike": 55000.0
