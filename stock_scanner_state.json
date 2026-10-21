@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:01:05.813724",
+  "generated_at": "2026-10-21T11:06:38.570551",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -11,46 +11,7 @@
       "security_id": "2885",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
-      "error": null,
-      "ltp": 1221.5,
-      "last_bar_time": "2026-10-21T10:45:00",
-      "signal": "NONE",
-      "buy": {
-        "count": 5,
-        "total": 7,
-        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=n, Above Daily R1=Y"
-      },
-      "sell": {
-        "count": 0,
-        "total": 7,
-        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=n, Below prev-day low=n, Below Daily S1=n"
-      },
-      "levels": {
-        "openRangeClose": 1225.7,
-        "pivot": 1210.67,
-        "r1": 1220.33,
-        "s1": 1193.13,
-        "prevDayHigh": 1228.2,
-        "prevDayLow": 1201.0,
-        "ema15_5": 1219.92,
-        "monthlyCPR_tc": 1257.35,
-        "monthlyCPR_pivot": 1233.57,
-        "monthlyCPR_bc": 1209.78,
-        "weeklyCPR_tc": 1201.5,
-        "weeklyCPR_pivot": 1193.5,
-        "weeklyCPR_bc": 1185.5,
-        "dailyCPR_tc": 1214.6,
-        "dailyCPR_pivot": 1210.67,
-        "dailyCPR_bc": 1206.73,
-        "dailyCPR_width": 7.87,
-        "dailyCPR_width_pct": 0.65,
-        "nextDayCPR_tc": 1221.38,
-        "nextDayCPR_pivot": 1221.27,
-        "nextDayCPR_bc": 1221.15,
-        "nextDayCPR_width_pct": 0.02
-      },
-      "isNarrowCPR": false,
-      "isNextDayCPRNarrow": true
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001FB412BD010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TCS",
@@ -2353,7 +2314,7 @@
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 22962.85,
+        "spot": 22970.0,
         "maxPainStrike": 23000.0,
         "resistanceStrike": 23500.0,
         "supportStrike": 23000.0
@@ -2406,7 +2367,7 @@
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 55470.95,
+        "spot": 55431.1,
         "maxPainStrike": 55600.0,
         "resistanceStrike": 56000.0,
         "supportStrike": 55000.0
