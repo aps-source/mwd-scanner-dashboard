@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:31:11.540173",
+  "generated_at": "2026-10-21T08:50:30.034154",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -11,7 +11,46 @@
       "security_id": "2885",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000015C2AD0D010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": null,
+      "ltp": 1202.8,
+      "last_bar_time": "2026-10-19T15:00:00",
+      "signal": "NONE",
+      "buy": {
+        "count": 1,
+        "total": 7,
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Above pivot=n, Above prev-day high=n, Above Daily R1=n"
+      },
+      "sell": {
+        "count": 1,
+        "total": 7,
+        "detail": "Below Weekly CPR=n, Daily EMA stack=n, 60m EMA stack=n, 15m EMA stack=n, Below pivot=Y, Below prev-day low=n, Below Daily S1=n"
+      },
+      "levels": {
+        "openRangeClose": 1221.8,
+        "pivot": 1205.97,
+        "r1": 1218.93,
+        "s1": 1196.53,
+        "prevDayHigh": 1215.4,
+        "prevDayLow": 1193.0,
+        "ema15_5": 1204.31,
+        "monthlyCPR_tc": 1257.35,
+        "monthlyCPR_pivot": 1233.57,
+        "monthlyCPR_bc": 1209.78,
+        "weeklyCPR_tc": 1201.5,
+        "weeklyCPR_pivot": 1193.5,
+        "weeklyCPR_bc": 1185.5,
+        "dailyCPR_tc": 1207.73,
+        "dailyCPR_pivot": 1205.97,
+        "dailyCPR_bc": 1204.2,
+        "dailyCPR_width": 3.53,
+        "dailyCPR_width_pct": 0.29,
+        "nextDayCPR_tc": 1214.6,
+        "nextDayCPR_pivot": 1210.67,
+        "nextDayCPR_bc": 1206.73,
+        "nextDayCPR_width_pct": 0.65
+      },
+      "isNarrowCPR": true,
+      "isNextDayCPRNarrow": false
     },
     {
       "symbol": "TCS",
@@ -2274,7 +2313,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 22888.95,
-      "last_bar_time": "2026-10-19T15:15:00",
+      "last_bar_time": "2026-10-19T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2293,7 +2332,7 @@
         "s1": 22990.02,
         "prevDayHigh": 23149.85,
         "prevDayLow": 22913.8,
-        "ema15_5": 22881.89,
+        "ema15_5": 22884.24,
         "monthlyCPR_tc": 23356.4,
         "monthlyCPR_pivot": 23111.08,
         "monthlyCPR_bc": 22865.77,
@@ -2312,7 +2351,13 @@
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
-      "optionLevels": null
+      "optionLevels": {
+        "expiry": "2026-10-27",
+        "spot": 22888.95,
+        "maxPainStrike": 23000.0,
+        "resistanceStrike": 24000.0,
+        "supportStrike": 22500.0
+      }
     },
     {
       "symbol": "BANKNIFTY",
@@ -2321,7 +2366,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 55488.1,
-      "last_bar_time": "2026-10-19T15:15:00",
+      "last_bar_time": "2026-10-19T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2340,7 +2385,7 @@
         "s1": 55583.68,
         "prevDayHigh": 55989.55,
         "prevDayLow": 55526.3,
-        "ema15_5": 55490.05,
+        "ema15_5": 55489.4,
         "monthlyCPR_tc": 55775.97,
         "monthlyCPR_pivot": 55395.0,
         "monthlyCPR_bc": 55014.03,
@@ -2374,7 +2419,7 @@
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
       "ltp": 31516.3,
-      "last_bar_time": "2026-10-19T15:15:00",
+      "last_bar_time": "2026-10-19T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 1,
@@ -2393,7 +2438,7 @@
         "s1": 31213.58,
         "prevDayHigh": 32015.65,
         "prevDayLow": 30904.1,
-        "ema15_5": 31461.53,
+        "ema15_5": 31479.79,
         "monthlyCPR_tc": 29571.03,
         "monthlyCPR_pivot": 28948.95,
         "monthlyCPR_bc": 28326.88,
