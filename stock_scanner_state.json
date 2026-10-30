@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:46:02.642949",
+  "generated_at": "2026-10-30T09:03:59.374516",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2313,7 +2313,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 22936.75,
-      "last_bar_time": "2026-10-29T15:30:00",
+      "last_bar_time": "2026-10-29T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -2332,7 +2332,7 @@
         "s1": 22538.35,
         "prevDayHigh": 22778.05,
         "prevDayLow": 22497.7,
-        "ema15_5": 22932.35,
+        "ema15_5": 22933.82,
         "monthlyCPR_tc": 23356.4,
         "monthlyCPR_pivot": 23111.08,
         "monthlyCPR_bc": 22865.77,
@@ -2351,13 +2351,7 @@
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
-      "optionLevels": {
-        "expiry": "2026-11-03",
-        "spot": 22936.75,
-        "maxPainStrike": 22900.0,
-        "resistanceStrike": 23500.0,
-        "supportStrike": 22000.0
-      }
+      "optionLevels": null
     },
     {
       "symbol": "BANKNIFTY",
@@ -2366,7 +2360,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 54909.65,
-      "last_bar_time": "2026-10-29T15:30:00",
+      "last_bar_time": "2026-10-29T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 4,
@@ -2385,7 +2379,7 @@
         "s1": 53782.28,
         "prevDayHigh": 54440.25,
         "prevDayLow": 53626.15,
-        "ema15_5": 54891.29,
+        "ema15_5": 54897.41,
         "monthlyCPR_tc": 55775.97,
         "monthlyCPR_pivot": 55395.0,
         "monthlyCPR_bc": 55014.03,
@@ -2406,7 +2400,7 @@
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-11-23",
-        "spot": 54909.65,
+        "spot": 55026.1,
         "maxPainStrike": 55500.0,
         "resistanceStrike": 57000.0,
         "supportStrike": 58000.0
@@ -2419,7 +2413,7 @@
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
       "ltp": 31866.4,
-      "last_bar_time": "2026-10-29T15:30:00",
+      "last_bar_time": "2026-10-29T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -2438,7 +2432,7 @@
         "s1": 31121.68,
         "prevDayHigh": 31597.95,
         "prevDayLow": 30928.1,
-        "ema15_5": 31833.58,
+        "ema15_5": 31844.52,
         "monthlyCPR_tc": 29571.03,
         "monthlyCPR_pivot": 28948.95,
         "monthlyCPR_bc": 28326.88,
