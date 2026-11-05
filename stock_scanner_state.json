@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:31:10.027434",
+  "generated_at": "2026-11-05T15:46:03.601855",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -11,7 +11,7 @@
       "security_id": "2885",
       "category": "EQUITY",
       "chart_url": "https://dhan.co/stocks/reliance-industries-ltd-chart/",
-      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000027EA26ED010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
+      "error": "HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/intraday (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001CD605DD010>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)\"))"
     },
     {
       "symbol": "TCS",
@@ -2274,7 +2274,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 24536.6,
-      "last_bar_time": "2026-11-05T15:15:00",
+      "last_bar_time": "2026-11-05T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 5,
@@ -2293,7 +2293,7 @@
         "s1": 23784.3,
         "prevDayHigh": 23960.6,
         "prevDayLow": 23696.15,
-        "ema15_5": 24539.46,
+        "ema15_5": 24538.51,
         "monthlyCPR_tc": 22927.92,
         "monthlyCPR_pivot": 22802.75,
         "monthlyCPR_bc": 22677.58,
@@ -2327,7 +2327,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 57773.65,
-      "last_bar_time": "2026-11-05T15:15:00",
+      "last_bar_time": "2026-11-05T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -2346,7 +2346,7 @@
         "s1": 55489.78,
         "prevDayHigh": 55946.85,
         "prevDayLow": 55294.5,
-        "ema15_5": 57758.51,
+        "ema15_5": 57763.55,
         "monthlyCPR_tc": 54845.82,
         "monthlyCPR_pivot": 54792.87,
         "monthlyCPR_bc": 54739.91,
@@ -2380,7 +2380,7 @@
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
       "ltp": 32837.85,
-      "last_bar_time": "2026-11-05T15:15:00",
+      "last_bar_time": "2026-11-05T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -2399,7 +2399,7 @@
         "s1": 31688.43,
         "prevDayHigh": 32535.6,
         "prevDayLow": 31738.55,
-        "ema15_5": 32859.33,
+        "ema15_5": 32852.17,
         "monthlyCPR_tc": 31870.7,
         "monthlyCPR_pivot": 31134.5,
         "monthlyCPR_bc": 30398.3,
