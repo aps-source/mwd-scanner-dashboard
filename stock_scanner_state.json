@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:31:09.916507",
+  "generated_at": "2026-11-11T15:46:03.223077",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2313,12 +2313,12 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 25255.05,
-      "last_bar_time": "2026-11-11T15:15:00",
-      "signal": "NONE",
+      "last_bar_time": "2026-11-11T15:30:00",
+      "signal": "CALL",
       "buy": {
-        "count": 6,
+        "count": 7,
         "total": 7,
-        "detail": "Above Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=n, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
+        "detail": "Above Weekly CPR=Y, Daily EMA stack=Y, 60m EMA stack=Y, 15m EMA stack=Y, Above pivot=Y, Above prev-day high=Y, Above Daily R1=Y"
       },
       "sell": {
         "count": 0,
@@ -2332,7 +2332,7 @@
         "s1": 24894.25,
         "prevDayHigh": 25084.05,
         "prevDayLow": 24838.75,
-        "ema15_5": 25202.08,
+        "ema15_5": 25219.74,
         "monthlyCPR_tc": 22927.92,
         "monthlyCPR_pivot": 22802.75,
         "monthlyCPR_bc": 22677.58,
@@ -2354,7 +2354,7 @@
       "optionLevels": {
         "expiry": "2026-11-17",
         "spot": 25255.05,
-        "maxPainStrike": 25150.0,
+        "maxPainStrike": 25100.0,
         "resistanceStrike": 26000.0,
         "supportStrike": 24500.0
       }
@@ -2366,7 +2366,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 60792.4,
-      "last_bar_time": "2026-11-11T15:15:00",
+      "last_bar_time": "2026-11-11T15:30:00",
       "signal": "CALL",
       "buy": {
         "count": 7,
@@ -2385,7 +2385,7 @@
         "s1": 59165.65,
         "prevDayHigh": 59741.25,
         "prevDayLow": 58877.85,
-        "ema15_5": 60703.68,
+        "ema15_5": 60733.25,
         "monthlyCPR_tc": 54845.82,
         "monthlyCPR_pivot": 54792.87,
         "monthlyCPR_bc": 54739.91,
@@ -2419,7 +2419,7 @@
       "chart_url": "https://dhan.co/indices/nifty-it-chart/",
       "error": null,
       "ltp": 32295.6,
-      "last_bar_time": "2026-11-11T15:15:00",
+      "last_bar_time": "2026-11-11T15:30:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -2438,7 +2438,7 @@
         "s1": 32158.32,
         "prevDayHigh": 32766.45,
         "prevDayLow": 32151.8,
-        "ema15_5": 32208.54,
+        "ema15_5": 32237.56,
         "monthlyCPR_tc": 31870.7,
         "monthlyCPR_pivot": 31134.5,
         "monthlyCPR_bc": 30398.3,
