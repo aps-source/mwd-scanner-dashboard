@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:01:04.834376",
+  "generated_at": "2026-11-11T10:03:46.789806",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -2351,7 +2351,13 @@
       },
       "isNarrowCPR": true,
       "isNextDayCPRNarrow": true,
-      "optionLevels": null
+      "optionLevels": {
+        "expiry": "2026-11-17",
+        "spot": 25361.45,
+        "maxPainStrike": 25200.0,
+        "resistanceStrike": 26000.0,
+        "supportStrike": 25000.0
+      }
     },
     {
       "symbol": "BANKNIFTY",
@@ -2400,7 +2406,7 @@
       "isNextDayCPRNarrow": true,
       "optionLevels": {
         "expiry": "2026-11-23",
-        "spot": 60818.4,
+        "spot": 60813.85,
         "maxPainStrike": 58000.0,
         "resistanceStrike": 58000.0,
         "supportStrike": 58000.0
